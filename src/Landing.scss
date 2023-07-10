@@ -1,0 +1,9 @@
+body {
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+    background-image: linear-gradient(to bottom, #030418, #05061d, #060821, #060a26, #060c2b, #060c2b, #060c2b, #060c2b, #060a26, #060821, #05061d, #030418);
+  }
+  
+  body::-webkit-scrollbar {
+    display: none; 
+  }
