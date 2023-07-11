@@ -1,12 +1,10 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./Header.scss";
-// import headerImg from "../img/1234.jpg";
-import mta from "../img/mta.png";
+import { TypeAnimation } from "react-type-animation";
 import thamimpdf from "../img/Thamim Resume2.pdf";
 import WOW from "wow.js";
 import { Link } from "react-scroll";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import TrackVisibility from "react-on-screen";
 import { Facebook, Instagram } from "iconsax-react";
 
 function Header() {
@@ -49,10 +47,9 @@ function Header() {
         className="sticky top-0 left-0 right-0 w-full dashboard nav-bar sm:w-full z-10 "
       >
         <div className=" sm:mx-auto md:mx-10 lg:mx-20 flex items-center justify-between py-4 ">
-          <div className="text-white font-bold text-3xl wow bounceIn ml-4">
-            I ❤️ REACT JS
-            
-            {/* <img src={mta} alt="wdwd" className="w-25"/> */}
+          <div className="text-orange-600 font-black font-mono text-4xl  wow slideInLeft ml-4">
+            🌌MTA
+            {/* <img src={mta1} alt="wdwd" className=""/> */}
           </div>
           <nav>
             <div className="flex items-center justify-between md:hidden">
@@ -87,11 +84,11 @@ function Header() {
             <ul
               className={`${
                 isMobileMenuOpen ? "block" : "hidden"
-              } md:flex md:space-x-6 tracking-widest justify-between items-center`}
+              } md:flex md:space-x-6 tracking-widest justify-between items-center wow slideInRight`}
             >
               <li>
                 <Link
-                  className="text-white font-sans hover:text-orange-600  font-medium font-sans cursor-pointer"
+                  className="text-white font-sans hover:text-orange-600  font-bold font-sans cursor-pointer"
                   activeClass="active"
                   to="home"
                   spy={true}
@@ -102,7 +99,7 @@ function Header() {
               </li>
               <li>
                 <Link
-                  className="text-white font-sans hover:text-orange-600  font-medium font-sans cursor-pointer"
+                  className="text-white font-sans hover:text-orange-600  font-bold font-sans cursor-pointer"
                   to="aboutsection"
                   spy={true}
                   smooth={true}
@@ -112,7 +109,7 @@ function Header() {
               </li>
               <li>
                 <Link
-                  className="text-white font-sans hover:text-orange-600  font-medium font-sans cursor-pointer"
+                  className="text-white font-sans hover:text-orange-600 font-bold font-sans cursor-pointer"
                   to="services"
                   spy={true}
                   smooth={true}
@@ -122,7 +119,7 @@ function Header() {
               </li>
               <li>
                 <Link
-                  className="text-white font-sans hover:text-orange-600  font-medium font-sans cursor-pointer"
+                  className="text-white font-sans hover:text-orange-600  font-bold font-sans cursor-pointer"
                   to="skills"
                   spy={true}
                   smooth={true}
@@ -132,7 +129,7 @@ function Header() {
               </li>
               <li className="">
                 <Link
-                  className="text-white font-sans hover:text-orange-600  font-medium font-sans cursor-pointer"
+                  className="text-white font-sans hover:text-orange-600 font-bold font-sans cursor-pointer"
                   to="contactme"
                   spy={true}
                   smooth={true}
@@ -163,8 +160,8 @@ function Header() {
       )}
       <div className={`overlay-menu ${isMobileMenuOpen ? "open" : ""}`}>
         <div className="flex justify-between p-3">
-          <div className="text-white font-bold text-3xl mx-4 ">
-            I ❤️ REACT
+          <div className="text-orange-600 font-mono font-bold text-3xl mx-4 ">
+            🌌MTA
           </div>
           <button
             onClick={toggleMobileMenu}
@@ -204,7 +201,7 @@ function Header() {
               spy={true}
               smooth={true}
             >
-            🪐  HOME
+              🚀 HOME
             </Link>
           </li>
           <li className="">
@@ -214,7 +211,7 @@ function Header() {
               spy={true}
               smooth={true}
             >
-             🪐 ABOUT
+              🚀 ABOUT
             </Link>
           </li>
           <li className="">
@@ -224,7 +221,7 @@ function Header() {
               spy={true}
               smooth={true}
             >
-             🪐 SERVICES
+              🚀 SERVICES
             </Link>
           </li>
           <li className="">
@@ -234,7 +231,7 @@ function Header() {
               spy={true}
               smooth={true}
             >
-             🪐 SKILLS
+              🚀 SKILLS
             </Link>
           </li>
 
@@ -245,20 +242,20 @@ function Header() {
               spy={true}
               smooth={true}
             >
-             🪐 CONTACT ME
+              🚀 CONTACT ME
             </Link>
           </li>
 
           <li className="wow BounceIn">
-                <Link
-                  className="bg-gradient-to-r from-[#005eff] to-blue-400 text-white font-bold py-2 px-3 rounded hover:from-pink-500 hover:to-yellow-500 wow bounceIn cursor-pointer"
-                  to="donate"
-                  spy={true}
-                  smooth={true}
-                >
-                  DOWNLOAD CV
-                </Link>
-              </li>
+            <Link
+              className="bg-gradient-to-r from-[#005eff] to-blue-400 text-white font-bold py-2 px-3 rounded hover:from-pink-500 hover:to-yellow-500 wow bounceIn cursor-pointer"
+              to="donate"
+              spy={true}
+              smooth={true}
+            >
+              DOWNLOAD CV
+            </Link>
+          </li>
         </ul>
       </div>
 
@@ -269,18 +266,56 @@ function Header() {
             <div className="  lg:p-3px tracking-wider mt-12">
               <div className="wow fadeIn mt-12 pt-5">
                 <div className="text-white text-2xl leading-tight font-sans font-extrabold ">
-                  HELLO
+                <TypeAnimation
+                  sequence={[
+                    "HELLO",
+                    1000, 
+                  
+                  ]}
+                  wrapper="span"
+                  speed={50}
+                  style={{ display: "inline-block" }}
+                  className=""
+                  // repeat={Infinity}
+                />
                 </div>
                 <div className="text-white text-6xl lg:text-6xl font-sans font-extrabold ">
                   I'M THAMIM{" "}
                   <span className="text-[#099FFF]  text-6xl lg:text-6xl font-sans font-extrabold break-keep">
-                    ANSARI
+                  <TypeAnimation
+                  sequence={[
+                   
+                    "ANSARI",
+                    1000,
+                    
+                  ]}
+                  wrapper="span"
+                  speed={50}
+                  style={{ display: "inline-block" }}
+                  className=""
+                  repeat={Infinity}
+                />
                   </span>
                 </div>
-                <div className="text-white text-base font-sans font-bold ">
+                {/* <div className="text-white text-base font-sans font-bold ">
                   FRONT-END <span className="text-[#099FFF] ">REACT </span>
                   DEVELOPER
-                </div>
+                </div> */}
+                <TypeAnimation
+                  sequence={[
+                    "I`m a front-end react developer",
+                    1000, 
+                    "I`m a freelancer",
+                    1000,
+                    "I`m a Designer",
+                    1000,
+                  ]}
+                  wrapper="span"
+                  speed={50}
+                  style={{ display: "inline-block" }}
+                  className="text-white text-xl font-sans font-bold uppercase"
+                  repeat={Infinity}
+                />
               </div>
 
               <div className="mt-7 wow bounceIn">
@@ -302,7 +337,7 @@ function Header() {
                   <Instagram
                     size={32}
                     variant="Bold"
-                    className="text-[#005eff] hover:text-white"
+                    className="transform transition duration-500 hover:scale-125 text-[#005eff] hover:text-white"
                   />
                 </a>
                 <a
@@ -312,7 +347,7 @@ function Header() {
                 >
                   <Facebook
                     size={32}
-                    className="text-[#005eff]  hover:text-white"
+                    className="transform transition duration-500 hover:scale-125 text-[#005eff]  hover:text-white"
                     variant="Bold"
                   />
                 </a>
@@ -323,7 +358,7 @@ function Header() {
                 >
                   <FaLinkedin
                     size={32}
-                    className="text-[#005eff]  hover:text-white"
+                    className="transform transition duration-500 hover:scale-125 text-[#005eff]  hover:text-white"
                   />
                 </a>
                 <a
@@ -333,7 +368,7 @@ function Header() {
                 >
                   <FaGithub
                     size={32}
-                    className="text-[#005eff]  hover:text-white "
+                    className=" transform transition duration-500 hover:scale-125 text-[#005eff]  hover:text-white "
                   />
                 </a>
               </div>

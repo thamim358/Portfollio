@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'sans': ['Poppins', 'sans-serif'],
+        'mono': ['Shadows Into Light', 'cursive'],
       },
       spacing: {
         '3px': '60px',

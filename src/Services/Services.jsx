@@ -1,9 +1,6 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useEffect } from "react";
 import "./Skills.scss";
 import WOW from "wow.js";
-import invest from "../img/investment2.png";
-import increase from "../img/increaseicon.png";
-import aid from "../img/Aided.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faComputer,
@@ -13,8 +10,6 @@ import {
   faPhone,
   faLayerGroup,
 } from "@fortawesome/free-solid-svg-icons";
-import { FaFirefoxBrowser } from "react-icons/fa";
-import { faBrowser } from "@fortawesome/free-regular-svg-icons";
 
 function Services() {
   useEffect(() => {
@@ -26,40 +21,40 @@ function Services() {
       logo: (
         <FontAwesomeIcon
           icon={faComputer}
-          className="text-blue-400 animate__animated animate__bounce"
+          className="text-blue-400"
           bounce
           size="3x"
           style={{ color: "#005eff" }}
         />
       ),
       title: "web development",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      description: " Developed a responsive website for Corvanta Analytics, implementing modern design principles and utilizing HTML, CSS, TailWind and JavaScript. Integrated smooth animations and transitions for an enhanced user experience.",
     },
     {
       logo: (
         <FontAwesomeIcon
           icon={faDesktop}
-          className="text-blue-400 animate__animated animate__bounce"
+          className="text-blue-400"
           bounce
           size="3x"
           style={{ color: "#005eff" }}
         />
       ),
       title: "user interface",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      description: "An e-commerce store built with HTML, CSS, and JavaScript ReactJs. This responsive website provides a seamless shopping experience with dynamic product listing, a secure payment gateway, and user-friendly navigation.",
     },
     {
       logo: (
         <FontAwesomeIcon
           icon={faMobileScreen}
-          className="text-blue-400 animate__animated animate__bounce"
+          className="text-blue-400 "
           bounce
           size="3x"
           style={{ color: "#005eff" }}
         />
       ),
       title: "responsive design",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      description: "A personal portfolio website created using modern web technologies like Tailwind css for Mobile Responsive . Featuring a clean and minimalistic design, this website showcases my skills, It incorporates smooth scrolling etc.",
     },
   ];
   const cardsData2 = [
@@ -67,14 +62,14 @@ function Services() {
       logo: (
         <FontAwesomeIcon
           icon={faLayerGroup}
-          className="text-blue-400 animate__animated animate__bounce"
+          className="text-blue-400"
           bounce
           size="3x"
           style={{ color: "#005eff" }}
         />
       ),
       title: "web design",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      description: " Redesigned the website for Myself to enhance its visual appeal, user experience, and overall brand identity. Implemented a modern and responsive design, optimized page load speed, and improved site navigation to increase user engagement and conversion rates.",
     },
     {
       logo: (
@@ -87,7 +82,7 @@ function Services() {
         />
       ),
       title: "clean code",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      description: "My portfolio showcases clean and structurally organized code, highlighting my dedication to readability and maintainability in my projects The code in my portfolio is meticulously crafted with a focus on cleanliness and structure, enhancing its overall quality. ",
     },
     {
       logo: (
@@ -100,7 +95,7 @@ function Services() {
         />
       ),
       title: "fast support",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      description: "efficient support is my priority, ensuring that I respond quickly to any inquiries or issues you may have. I strive to provide timely assistance and address your concerns promptly, ensuring a smooth and hassle-free experience throughout our collaboration.",
     },
   ];
   return (
@@ -109,7 +104,7 @@ function Services() {
         <div className="Name uppercase text-4xl text-blue-600 mt-5 pt-5 font-bold text-center wow rotateIn">
           Services
         </div>
-        <div className="flex flex-wrap justify-center mt-5 wow slideInUp">
+        <div className="flex flex-wrap justify-center mt-5 wow slideInUp ">
           {cardsData.map((card, index) => (
             <div
               className="w-full  sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 p-4"
