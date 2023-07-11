@@ -114,7 +114,7 @@ function AboutMe() {
     <>
   <div className="section" id="aboutsection">
   <div className="py-10 px-5 mx-12">
-    <div className="Name uppercase text-4xl text-blue-600 mt-5 pt-5 font-bold wow rotateIn">
+    <div className="Name uppercase text-center text-4xl text-blue-600 mt-5 pt-5 font-bold wow rotateIn">
       About Me
     </div>
     <p className="wow slideInUp mt-5 text-gray-600 text-base font-sans">

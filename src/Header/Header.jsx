@@ -6,7 +6,7 @@ import thamimpdf from "../img/Thamim Resume2.pdf";
 import WOW from "wow.js";
 import { Link } from "react-scroll";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import TrackVisibility from 'react-on-screen';
+import TrackVisibility from "react-on-screen";
 import { Facebook, Instagram } from "iconsax-react";
 
 function Header() {
@@ -48,17 +48,17 @@ function Header() {
         id="Navbar"
         className="sticky top-0 left-0 right-0 w-full dashboard nav-bar sm:w-full z-10 "
       >
-        <div className=" mx-10 px-10 flex items-center justify-between  py-4 ">
-          <div className="text-white font-bold text-3xl wow bounceIn">
-            {/* I ❤️ REACT JS
-             */}
-                  <img src={mta} alt="wdwd" className="w-25"/>
+        <div className=" sm:mx-auto md:mx-10 lg:mx-20 flex items-center justify-between py-4 ">
+          <div className="text-white font-bold text-3xl wow bounceIn ml-4">
+            I ❤️ REACT JS
+            
+            {/* <img src={mta} alt="wdwd" className="w-25"/> */}
           </div>
           <nav>
             <div className="flex items-center justify-between md:hidden">
               <button
                 onClick={toggleMobileMenu}
-                className="text-black hover:text-orange-600 focus:outline-none"
+                className="text-white flex justify-end ml-10 hover:text-purple-600 focus:outline-none"
               >
                 <svg
                   className="w-6 h-6 mx-11"
@@ -107,7 +107,7 @@ function Header() {
                   spy={true}
                   smooth={true}
                 >
-                 ABOUT
+                  ABOUT
                 </Link>
               </li>
               <li>
@@ -117,7 +117,17 @@ function Header() {
                   spy={true}
                   smooth={true}
                 >
-              SERVICES
+                  SERVICES
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="text-white font-sans hover:text-orange-600  font-medium font-sans cursor-pointer"
+                  to="skills"
+                  spy={true}
+                  smooth={true}
+                >
+                  SKILLS
                 </Link>
               </li>
               <li className="">
@@ -130,8 +140,7 @@ function Header() {
                   CONTACT ME
                 </Link>
               </li>
-              
-              
+
               <li className="wow BounceIn">
                 <Link
                   className="bg-gradient-to-r from-[#005eff] to-blue-400 text-white font-bold py-2 px-3 rounded hover:from-pink-500 hover:to-yellow-500 wow bounceIn cursor-pointer"
@@ -153,13 +162,13 @@ function Header() {
         ></div>
       )}
       <div className={`overlay-menu ${isMobileMenuOpen ? "open" : ""}`}>
-        <div className="flex">
+        <div className="flex justify-between p-3">
           <div className="text-white font-bold text-3xl mx-4 ">
-            I ❤️ MORRISVILLE
+            I ❤️ REACT
           </div>
           <button
             onClick={toggleMobileMenu}
-            className="text-white hover:text-orange-600 focus:outline-none"
+            className="text-blue-600 hover:text-purple-600  focus:outline-none"
           >
             <svg
               className="w-6 h-6 mx-11"
@@ -187,58 +196,69 @@ function Header() {
         </div>
 
         <ul className="flex flex-col space-y-6 p-7 ">
-          <li className="list-disc">
+          <li className="">
             <Link
-              className="text-black font-sans hover:text-orange-600  font-medium font-sans cursor-pointer"
+              className="text-blue-600 font-sans hover:text-purple-600 text-2xl font-bold font-sans cursor-pointer"
               activeClass="active"
               to="home"
               spy={true}
               smooth={true}
             >
-              HOME
+            🪐  HOME
             </Link>
           </li>
-          <li className="list-disc">
+          <li className="">
             <Link
-              className="text-black font-sans hover:text-orange-600  font-medium font-sans cursor-pointer"
+              className="text-blue-600 font-sans hover:text-purple-600 text-2xl font-bold font-sans cursor-pointer"
               to="aboutsection"
               spy={true}
               smooth={true}
             >
-              ABOUT
+             🪐 ABOUT
             </Link>
           </li>
-          <li className="list-disc">
+          <li className="">
             <Link
-              className="text-black font-sans hover:text-orange-600  font-medium cursor-pointer"
+              className="text-blue-600 font-sans hover:text-purple-600 text-2xl font-bold cursor-pointer"
               to="services"
               spy={true}
               smooth={true}
             >
-              SERVICES
+             🪐 SERVICES
             </Link>
           </li>
-          <li className="list-disc">
+          <li className="">
             <Link
-              className="text-black font-sans hover:text-orange-600  font-medium font-sans cursor-pointer"
+              className="text-blue-600 font-sans hover:text-purple-600 text-2xl font-bold font-sans cursor-pointer"
+              to="skills"
+              spy={true}
+              smooth={true}
+            >
+             🪐 SKILLS
+            </Link>
+          </li>
+
+          <li className="">
+            <Link
+              className="text-blue-600 font-sans hover:text-purple-600 text-2xl font-bold font-sans cursor-pointer"
               to="contactme"
               spy={true}
               smooth={true}
             >
-              CONTACT ME
+             🪐 CONTACT ME
             </Link>
           </li>
-         
-          <li className="wow bounceIn">
-            <Link
-              className="bg-orange-600 text-white font-bold py-2 px-3 rounded hover:from-pink-500 hover:to-yellow-500  "
-              to="donate"
-              spy={true}
-              smooth={true}
-            >
-              DOWNLOAD CV
-            </Link>
-          </li>
+
+          <li className="wow BounceIn">
+                <Link
+                  className="bg-gradient-to-r from-[#005eff] to-blue-400 text-white font-bold py-2 px-3 rounded hover:from-pink-500 hover:to-yellow-500 wow bounceIn cursor-pointer"
+                  to="donate"
+                  spy={true}
+                  smooth={true}
+                >
+                  DOWNLOAD CV
+                </Link>
+              </li>
         </ul>
       </div>
 
@@ -252,10 +272,13 @@ function Header() {
                   HELLO
                 </div>
                 <div className="text-white text-6xl lg:text-6xl font-sans font-extrabold ">
-                  I'M THAMIM <span className="text-[#099FFF]  text-6xl lg:text-6xl font-sans font-extrabold break-keep">ANSARI</span>
+                  I'M THAMIM{" "}
+                  <span className="text-[#099FFF]  text-6xl lg:text-6xl font-sans font-extrabold break-keep">
+                    ANSARI
+                  </span>
                 </div>
                 <div className="text-white text-base font-sans font-bold ">
-                  FRONT-END <span className="text-[#099FFF] ">REACT  </span>
+                  FRONT-END <span className="text-[#099FFF] ">REACT </span>
                   DEVELOPER
                 </div>
               </div>
@@ -316,10 +339,10 @@ function Header() {
               </div>
             </div>
             <div className=" lg:mt-10 mt-5 mr-10 justify-self-center md:justify-center pb-10 ">
-                <div >
-                  {/* <img src={headerImg} alt="Header Img" className="banner" /> */}
-                </div>
-            {/* </TrackVisibility> */}
+              <div>
+                {/* <img src={headerImg} alt="Header Img" className="banner" /> */}
+              </div>
+              {/* </TrackVisibility> */}
             </div>
           </div>
         </div>

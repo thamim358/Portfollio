@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'sans': ['Ubuntu', 'Arial', 'sans-serif'],
+        'sans': ['Poppins', 'sans-serif'],
       },
       spacing: {
         '3px': '60px',

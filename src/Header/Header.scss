@@ -6,6 +6,9 @@
     background-size: cover;
     background-repeat: no-repeat;
   }
+  .ant-progress-text {
+    color: white !important;
+  }
   .banner{
     width:1800px;
     height: 400px;
@@ -20,7 +23,7 @@
   right: 0;
   bottom: 0;
   z-index: 50;
-  background-color: white;
+  background-image: linear-gradient(to bottom, #030418, #05061d, #060821, #060a26, #060c2b, #060c2b, #060c2b, #060c2b, #060a26, #060821, #05061d, #030418);
   padding: 4px;
   transform: translateX(-100%);
   transition: transform 0.3s ease-in-out;
@@ -45,7 +48,7 @@ body.menu-open {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
   z-index: 40;
 }
 .photo{

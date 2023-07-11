@@ -8,6 +8,8 @@ import { Helmet } from "react-helmet";
 import { Container, Row, Col } from "react-bootstrap";
 
 function ContactUs() {
+  const [status, setStatus] = useState({ success: false, message: "" });
+
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -36,6 +38,7 @@ function ContactUs() {
       .post("http://localhost/contactus/contact.php", data)
       .then((response) => {
         console.log(response.data); // Handle success response
+
         // Reset form fields
         setFormData({
           firstName: "",
@@ -45,11 +48,24 @@ function ContactUs() {
           message: "",
           dropdown: "Yes",
         });
+
+        // Display success message
+        setStatus({
+          success: true,
+          message: "Form failed",
+        });
       })
       .catch((error) => {
         console.error(error); // Handle error
+
+        // Display error message
+        setStatus({
+          success: false,
+          message: "Form submitted successfully!",
+        }); 
       });
   };
+
   // const handleSubmit = (e) => {
   //   e.preventDefault();
   //   // Handle form submission logic here
@@ -102,14 +118,14 @@ function ContactUs() {
   }, []);
   return (
     <>
-      <section className="contact space mt-5" id="contactme">
+      <section className="contact space " id="contactme">
         <Container>
-          <div className="flex flex-col md:flex-row">
-            <Row className="flex flex-col md:flex-row p-5">
+          <div className="">
+            <Row className="flex flex-col justify-center items-center md:flex-row p-5">
               <Col
                 size={12}
                 md={6}
-                className="md:w-3/5 lg:p-3px tracking-wider mt-10 "
+                className="md:w-3/5 lg:p-3px tracking-wider "
               >
                 <img
                   src={contactImg}
@@ -118,13 +134,13 @@ function ContactUs() {
                 />
               </Col>
               <Col size={12} md={6}>
-                <div className="lg:mt-10 mt-5 mr-10 justify-self-center md:justify-center">
-                  <div className="Name uppercase text-4xl text-blue-600 mt-5 pt-5 font-bold wow rotateIn">
+                <div className="lg:mt-5 mt-5 mr-10 justify-self-center md:justify-center">
+                  <div className="Name uppercase text-4xl text-blue-600 mb-5 font-bold wow rotateIn">
                     Get In touch
                   </div>
                   <form onSubmit={handleSubmits}>
-                    <Row className="mt-5">
-                      <Col size={12} sm={6} className="px-1">
+                    <div className="flex flex-wrap -mx-1">
+                      <div className="w-full sm:w-1/2 px-1">
                         <input
                           type="text"
                           id="firstName"
@@ -133,8 +149,8 @@ function ContactUs() {
                           value={formData.firstName}
                           onChange={handleChange}
                         />
-                      </Col>
-                      <Col size={12} sm={6} className="px-1">
+                      </div>
+                      <div className="w-full sm:w-1/2 px-1">
                         <input
                           type="text"
                           name="lastName"
@@ -143,10 +159,10 @@ function ContactUs() {
                           onChange={handleChange}
                           required
                         />
-                      </Col>
-                    </Row>
-                    <Row>
-                      <Col size={12} sm={6} className="px-1">
+                      </div>
+                    </div>
+                    <div className="flex flex-wrap -mx-1">
+                      <div className="w-full sm:w-1/2 px-1">
                         <input
                           id="email"
                           type="email"
@@ -156,8 +172,8 @@ function ContactUs() {
                           onChange={handleChange}
                           required
                         />
-                      </Col>
-                      <Col size={12} sm={6} className="px-1">
+                      </div>
+                      <div className="w-full sm:w-1/2 px-1">
                         <input
                           type="tel"
                           id="phone"
@@ -167,9 +183,9 @@ function ContactUs() {
                           onChange={handleChange}
                           required
                         />
-                      </Col>
-                    </Row>
-                    <Col size={12} className="px-1">
+                      </div>
+                    </div>
+                    <div className="w-full px-1">
                       <textarea
                         rows="6"
                         id="message"
@@ -179,18 +195,20 @@ function ContactUs() {
                         onChange={handleChange}
                         required
                       ></textarea>
-                      <button className="hover:text-white" type="submit">
-                        Submit
+                      <button
+                        className="bg-gradient-to-r from-[#005eff] to-blue-400 text-white font-bold py-2 px-14 rounded-md hover:from-pink-500 hover:to-yellow-500 wow bounceIn cursor-pointer"
+                        type="submit"
+                      >
+                        Send
                       </button>
-                    </Col>
-                    {/* {
-                status.message &&
-                <Col>
-                  <p className={status.success === false ? "danger" : "success"}>{status.message}</p>
-                </Col>
-              } */}
+                    </div>
                   </form>
                 </div>
+                {status.message && (
+                  <Col className="mt-3 text-bold text-lg text-green-500"> 
+                      {status.message}
+                  </Col>
+                )}
               </Col>
             </Row>
           </div>

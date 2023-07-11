@@ -5,14 +5,16 @@ import ContactUs from "./ContactUs/ContactUs";
 import Footer from "./Footer/Footer";
 import Services from "./Services/Services";
 import AboutMe from "./AboutMe/AboutMe";
+import Skills from "./Skills/Skills";
 
 
 function Landing() {
   return (
     <>
-      <Header />
+      <Header/>
       <AboutMe/>
-      <Services   />
+      <Services/>
+      <Skills/>
       <ContactUs/>
       <Footer/>
     </>
