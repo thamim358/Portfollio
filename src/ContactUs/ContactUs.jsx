@@ -1,70 +1,109 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect,useRef } from "react";
 import "../Header/Header.scss";
 import "./ContactUs.scss";
+import emailjs from 'emailjs-com';
 import WOW from "wow.js";
 import contactImg from "../img/contact-img.svg";
 import axios from "axios";
 import { Container, Row, Col } from "react-bootstrap";
 
 function ContactUs() {
-  const [status, setStatus] = useState({ success: false, message: "" });
+  const [status, setStatus] = useState({});
 
-  const [formData, setFormData] = useState({
-    firstName: "",
-    lastName: "",
-    phone: "",
-    email: "",
-    message: "",
-    dropdown: "Yes",
-  });
+  // const [formData, setFormData] = useState({
+  //   firstName: "",
+  //   lastName: "",
+  //   phone: "",
+  //   email: "",
+  //   message: "",
+  //   dropdown: "Yes",
+  // });
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prevState) => ({
-      ...prevState,
-      [name]: value,
-    }));
-  };
-  const handleSubmits = (event) => {
-    event.preventDefault();
+  
+  // const handleChange = (e) => {
+  //   const { name, value } = e.target;
+  //   setFormData((prevData) => ({
+  //     ...prevData,
+  //     [name]: value,
+  //   }));
+  // };
 
-    const data = new FormData();
-    Object.entries(formData).forEach(([key, value]) => {
-      data.append(key, value);
-    });
+  // const handleSubmits = (e) => {
+  //   e.preventDefault();
 
-    axios
-      .post("http://localhost/contactus/contact.php", data)
-      .then((response) => {
-        console.log(response.data); // Handle success response
+  //   // Replace these values with your own
+  //   const serviceId = 'service_jgfsuqn';
+  //   const templateId = 'template_n2jqcc6';
+  //   const userId = 'yG7XtxVoGKsFafIuG';
 
-        // Reset form fields
-        setFormData({
-          firstName: "",
-          lastName: "",
-          phone: "",
-          email: "",
-          message: "",
-          dropdown: "Yes",
-        });
+  //   emailjs
+  //     .send(serviceId, templateId, {
+  //       from_name: formData.firstName + ' ' + formData.lastName,
+  //       from_email: formData.email,
+  //       phone: formData.phone,
+  //       message: formData.message,
+  //     }, userId)
+  //     .then(() => {
+  //       setStatus({ message: 'Email sent successfully!' });
+  //       setFormData({
+  //         firstName: '',
+  //         lastName: '',
+  //         email: '',
+  //         phone: '',
+  //         message: '',
+  //       });
+  //     })
+  //     .catch((error) => {
+  //       setStatus({ message: 'Error sending email.' });
+  //       console.error('Error sending email:', error);
+  //     });
+  // };
+  // const [name, setName] = useState('');
+  // const [email, setEmail] = useState('');
+  // const [message, setMessage] = useState('');
+  // const [phone, setPhone] = useState('');
 
-        // Display success message
-        setStatus({
-          success: true,
-          message: "Form failed",
-        });
-      })
-      .catch((error) => {
-        console.error(error); // Handle error
+  // const handleSubmits = (e) => {
+  //   e.preventDefault();
 
-        // Display error message
-        setStatus({
-          success: false,
-          message: "Form submitted successfully!",
-        }); 
+  //   // Replace these values with your own
+  //   const serviceId = 'service_jgfsuqn';
+  //   const templateId = 'template_n2jqcc6';
+  //   const userId = 'yG7XtxVoGKsFafIuG';
+
+  //   emailjs.send(serviceId, templateId, {
+  //     from_name: name,
+  //     from_email: email,
+  //     phone:phone,
+  //     message: message,
+
+  //   }, userId)
+  //     .then(() => {
+  //       console.log('Email sent successfully!');
+  //       // Reset form fields
+  //       setName('');
+  //       setEmail('');
+  //       setPhone('');
+  //       setMessage('');
+  //     })
+  //     .catch((error) => {
+  //       console.error('Error sending email:', error);
+  //     });
+  // };
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_sly09r6', 'template_n2jqcc6', form.current, 'yG7XtxVoGKsFafIuG')
+      .then((result) => {
+          console.log(result.text);
+          setStatus({ success: true, message: 'Email sent successfully!' });
+      }, (error) => {
+          console.log(error.text);
+          setStatus({ success: false, message: 'Failed to send email.' });
       });
   };
-
 
   // function handleSubmit(event) {
   //   event.preventDefault();
@@ -90,7 +129,7 @@ function ContactUs() {
   }, []);
   return (
     <>
-      <section className="contact space " id="contactme">
+      <section className="contact space" id="contactme">
         <Container>
           <div className="">
             <Row className="flex flex-col justify-center items-center md:flex-row p-5">
@@ -110,25 +149,23 @@ function ContactUs() {
                   <div className="Name uppercase text-4xl text-blue-600 mb-5 font-bold wow rotateIn">
                     Get In touch
                   </div>
-                  <form onSubmit={handleSubmits}>
+                  <form ref={form} onSubmit={sendEmail}>
                     <div className="flex flex-wrap -mx-1 wow slideInRight">
                       <div className="w-full sm:w-1/2 px-1">
                         <input
                           type="text"
                           id="firstName"
-                          name="firstName"
+                          name="firstname"
                           placeholder="First Name"
-                          value={formData.firstName}
-                          onChange={handleChange}
+                      
                         />
                       </div>
                       <div className="w-full sm:w-1/2 px-1">
                         <input
                           type="text"
-                          name="lastName"
+                          name="lastname"
                           placeholder="Last Name"
-                          value={formData.lastName}
-                          onChange={handleChange}
+                         
                           required
                         />
                       </div>
@@ -139,9 +176,8 @@ function ContactUs() {
                           id="email"
                           type="email"
                           placeholder="Email"
-                          name="email"
-                          value={formData.email}
-                          onChange={handleChange}
+                          name="user_email"
+                         
                           required
                         />
                       </div>
@@ -151,8 +187,7 @@ function ContactUs() {
                           id="phone"
                           name="phone"
                           placeholder="Phone No"
-                          value={formData.phone}
-                          onChange={handleChange}
+                         
                           required
                         />
                       </div>
@@ -163,8 +198,7 @@ function ContactUs() {
                         id="message"
                         name="message"
                         placeholder="Message"
-                        value={formData.message}
-                        onChange={handleChange}
+                       
                         required
                       ></textarea>
                       <button

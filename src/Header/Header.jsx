@@ -252,6 +252,9 @@ function Header() {
               to="donate"
               spy={true}
               smooth={true}
+              href={thamimpdf}
+              download="Example-PDF-document"
+              target="_blank"
             >
               DOWNLOAD CV
             </Link>
@@ -266,35 +269,26 @@ function Header() {
             <div className="  lg:p-3px tracking-wider mt-12">
               <div className="wow fadeIn mt-12 pt-5">
                 <div className="text-white text-2xl leading-tight font-sans font-extrabold ">
-                <TypeAnimation
-                  sequence={[
-                    "HELLO",
-                    1000, 
-                  
-                  ]}
-                  wrapper="span"
-                  speed={50}
-                  style={{ display: "inline-block" }}
-                  className=""
-                  // repeat={Infinity}
-                />
+                  <TypeAnimation
+                    sequence={["HELLO", 1000]}
+                    wrapper="span"
+                    speed={50}
+                    style={{ display: "inline-block" }}
+                    className=""
+                    // repeat={Infinity}
+                  />
                 </div>
                 <div className="text-white text-6xl lg:text-6xl font-sans font-extrabold ">
                   I'M THAMIM{" "}
                   <span className="text-[#099FFF]  text-6xl lg:text-6xl font-sans font-extrabold break-keep">
-                  <TypeAnimation
-                  sequence={[
-                   
-                    "ANSARI",
-                    1000,
-                    
-                  ]}
-                  wrapper="span"
-                  speed={50}
-                  style={{ display: "inline-block" }}
-                  className=""
-                  repeat={Infinity}
-                />
+                    <TypeAnimation
+                      sequence={["ANSARI", 1000]}
+                      wrapper="span"
+                      speed={50}
+                      style={{ display: "inline-block" }}
+                      className=""
+                      repeat={Infinity}
+                    />
                   </span>
                 </div>
                 {/* <div className="text-white text-base font-sans font-bold ">
@@ -304,7 +298,7 @@ function Header() {
                 <TypeAnimation
                   sequence={[
                     "I`m a front-end react developer",
-                    1000, 
+                    1000,
                     "I`m a freelancer",
                     1000,
                     "I`m a Designer",
