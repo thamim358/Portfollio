@@ -136,7 +136,7 @@ function ContactUs() {
               <Col
                 size={12}
                 md={6}
-                className="md:w-3/5 lg:p-3px tracking-wider wow slideInLeft"
+                className="md:w-3/5 lg:p-3px tracking-wider wow fadeInUp"
               >
                 <img
                   src={contactImg}
@@ -150,8 +150,8 @@ function ContactUs() {
                     Get In touch
                   </div>
                   <form ref={form} onSubmit={sendEmail}>
-                    <div className="flex flex-wrap -mx-1 wow slideInRight">
-                      <div className="w-full sm:w-1/2 px-1">
+                    <div className="flex flex-wrap -mx-1 ">
+                      <div className="w-full sm:w-1/2 px-1 wow fadeInUp">
                         <input
                           type="text"
                           id="firstName"
@@ -160,7 +160,7 @@ function ContactUs() {
                       
                         />
                       </div>
-                      <div className="w-full sm:w-1/2 px-1">
+                      <div className="w-full sm:w-1/2 px-1 wow fadeInUp">
                         <input
                           type="text"
                           name="lastname"
@@ -171,7 +171,7 @@ function ContactUs() {
                       </div>
                     </div>
                     <div className="flex flex-wrap -mx-1">
-                      <div className="w-full sm:w-1/2 px-1">
+                      <div className="w-full sm:w-1/2 px-1 wow fadeInUp">
                         <input
                           id="email"
                           type="email"
@@ -181,7 +181,7 @@ function ContactUs() {
                           required
                         />
                       </div>
-                      <div className="w-full sm:w-1/2 px-1">
+                      <div className="w-full sm:w-1/2 px-1 wow fadeInUp">
                         <input
                           type="tel"
                           id="phone"
@@ -192,7 +192,7 @@ function ContactUs() {
                         />
                       </div>
                     </div>
-                    <div className="w-full px-1">
+                    <div className="w-full px-1 wow fadeInUp">
                       <textarea
                         rows="6"
                         id="message"

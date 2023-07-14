@@ -122,22 +122,22 @@ function AboutMe() {
     </p>
     <div className="max-w-8xl mx-auto flex flex-col-reverse lg:flex-row items-center">
       <div className="w-full lg:w-1/2  mt-7 ">
-        <p className="text-blue-600 wow slideInLeft  text-xl font-medium uppercase mb-5  ">
+        <p className="text-blue-600 wow fadeInUp  text-xl font-medium uppercase mb-5  ">
           Personal Details
         </p>
-        <p className="text-blue-600 wow slideInLeft mb-5 text-xl font-medium">
+        <p className="text-blue-600 wow fadeInUp  mb-5 text-xl font-medium">
           Name: <span className="text-gray-600">Thamim Ansari</span>
         </p>
-        <p className="text-blue-600 wow slideInLeft mb-5 text-xl font-medium">
+        <p className="text-blue-600 wow fadeInUp  mb-5 text-xl font-medium">
           Address: <span className="text-gray-600">Chennai, India</span>
         </p>
-        <p className="text-blue-600 wow slideInLeft mb-5 text-xl font-medium">
+        <p className="text-blue-600 wow fadeInUp  mb-5 text-xl font-medium">
           Phone: <span className="text-gray-600">+91 8072098022</span>
         </p>
-        <p className="text-blue-600 wow slideInLeft mb-8 text-xl font-medium">
+        <p className="text-blue-600 wow fadeInUp  mb-8 text-xl font-medium">
           Email: <span className="text-gray-600">thamimansari358@gmail.com</span>
         </p>
-        <div className=" mt-2 wow bounceIn wow slideInLeft">
+        <div className=" mt-2 wow bounceIn wow fadeInUp">
                 <a
                   className=" bg-gradient-to-r from-[#005eff] to-blue-400 text-white  hover:text-[#005eff] hover:from-pink-500 hover:to-yellow-500 rounded-lg font-bold px-7 p-3 cursor-pointer"
                   href={thamimpdf}
@@ -149,10 +149,10 @@ function AboutMe() {
               </div>
       </div>
       <div className="w-full lg:w-1/2 mt-10">
-        <p className="text-blue-600 wow slideInRight mb-5 text-xl font-medium uppercase">
+        <p className="text-blue-600 wow fadeInUp mb-5 text-xl font-medium uppercase">
           My Interests
         </p>
-        <div className="flex flex-wrap justify-center mt-5 wow slideInRight ">
+        <div className="flex flex-wrap justify-center mt-5 wow fadeInUp ">
           {cardsData.map((card, index) => (
             <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 p-3" key={index}>
               <div className="bg-white bg-opacity-10 rounded-lg shadow-lg p-2">
@@ -168,7 +168,7 @@ function AboutMe() {
             </div>
           ))}
         </div>
-        <div className="flex flex-wrap justify-center mt-5  wow slideInRight">
+        <div className="flex flex-wrap justify-center mt-5  wow fadeInUp">
           {cardsData2.map((card, index) => (
             <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 p-3" key={index}>
               <div className="bg-white bg-opacity-10 rounded-lg shadow-lg p-2">

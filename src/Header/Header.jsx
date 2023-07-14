@@ -47,7 +47,7 @@ function Header() {
         className="sticky top-0 left-0 right-0 w-full dashboard nav-bar sm:w-full z-10 "
       >
         <div className=" sm:mx-auto md:mx-10 lg:mx-20 flex items-center justify-between py-4 ">
-          <div className="text-orange-600 font-black font-mono text-4xl  wow slideInLeft ml-4">
+          <div className="text-orange-600 font-black font-mono text-4xl  wow lightSpeedIn ml-4">
             🌌MTA
             {/* <img src={mta1} alt="wdwd" className=""/> */}
           </div>
@@ -84,7 +84,7 @@ function Header() {
             <ul
               className={`${
                 isMobileMenuOpen ? "block" : "hidden"
-              } md:flex md:space-x-6 tracking-widest justify-between items-center wow slideInRight`}
+              } md:flex md:space-x-6 tracking-widest justify-between items-center wow lightSpeedIn`}
             >
               <li>
                 <Link
@@ -291,25 +291,26 @@ function Header() {
                     />
                   </span>
                 </div>
-                {/* <div className="text-white text-base font-sans font-bold ">
-                  FRONT-END <span className="text-[#099FFF] ">REACT </span>
-                  DEVELOPER
-                </div> */}
+                <div className="text-white text-xl font-sans font-bold gap-2">
+                I'M A {""}
+                <span>
                 <TypeAnimation
                   sequence={[
-                    "I`m a front-end react developer",
+                    " front-end react developer",
                     1000,
-                    "I`m a freelancer",
+                    " freelancer",
                     1000,
-                    "I`m a Designer",
+                    " Designer",
                     1000,
                   ]}
                   wrapper="span"
                   speed={50}
                   style={{ display: "inline-block" }}
-                  className="text-white text-xl font-sans font-bold uppercase"
+                  className="text-[#099FFF] text-xl font-sans font-bold uppercase"
                   repeat={Infinity}
                 />
+                </span>
+              </div>
               </div>
 
               <div className="mt-7 wow bounceIn">
