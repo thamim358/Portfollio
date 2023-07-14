@@ -330,7 +330,7 @@ function Header() {
               </div>
               <div className="flex gap-3 mt-6">
                 <a
-                  href="https://https://www.instagram.com/___thamim__/"
+                  href="https://instagram.com/___thamim__?igshid=ZDc4ODBmNjlmNQ=="
                   target="_blank"
                   rel="noopener noreferrer"
                 >
