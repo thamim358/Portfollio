@@ -139,14 +139,16 @@ function Header() {
               </li>
 
               <li className="wow BounceIn">
-                <Link
-                  className="bg-gradient-to-r from-[#005eff] to-blue-400 text-white font-bold py-2 px-3 rounded hover:from-pink-500 hover:to-yellow-500 wow bounceIn cursor-pointer"
-                  to="donate"
-                  spy={true}
-                  smooth={true}
-                >
-                  DOWNLOAD CV
-                </Link>
+              <a  className="bg-gradient-to-r from-[#005eff] to-blue-400 text-white font-bold py-2 px-3 rounded hover:from-pink-500 hover:to-yellow-500 wow bounceIn cursor-pointer"
+              to="donate"
+              spy={true}
+              smooth={true}
+              href={thamimpdf}
+              download="resume"
+              target="_blank">
+           
+              DOWNLOAD CV
+            </a>
               </li>
             </ul>
           </nav>
@@ -247,17 +249,20 @@ function Header() {
           </li>
 
           <li className="wow BounceIn">
+            <a>
             <Link
               className="bg-gradient-to-r from-[#005eff] to-blue-400 text-white font-bold py-2 px-3 rounded hover:from-pink-500 hover:to-yellow-500 wow bounceIn cursor-pointer"
               to="donate"
               spy={true}
               smooth={true}
               href={thamimpdf}
-              download="Example-PDF-document"
+              download="resume"
               target="_blank"
+              
             >
               DOWNLOAD CV
             </Link>
+            </a>
           </li>
         </ul>
       </div>
@@ -317,7 +322,7 @@ function Header() {
                 <a
                   className=" bg-gradient-to-r from-[#005eff] to-blue-400 text-white  hover:text-[#005eff] hover:from-pink-500 hover:to-yellow-500 rounded-lg font-bold px-7 p-3 cursor-pointer"
                   href={thamimpdf}
-                  download="Example-PDF-document"
+                  download="Resume"
                   target="_blank"
                 >
                   DOWNLOAD CV
