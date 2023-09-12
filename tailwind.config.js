@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'sans': ['Poppins', 'sans-serif'],
-        'mono': ['Shadows Into Light', 'cursive'],
+        'sans': ['Lato','sans serif'],
+        'mono': ['PT Sans Caption', 'sans-serif'],
       },
       spacing: {
         '3px': '60px',

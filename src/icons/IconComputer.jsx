@@ -1,14 +1,21 @@
-import * as React from "react";
+import React from "react";
 
-function IconComputer(props) {
+function MenuIcon(props) {
   return (
-    <svg fill="none" viewBox="0 0 15 15" height="1em" width="1em" {...props}>
+    <svg viewBox="2.432 1.39 11.136 10.02" {...props}>
+      <path d="M9.561,7.2c0.441,0,0.8-0.358,0.8-0.8s-0.358-0.8-0.8-0.8H3.232c-0.442,0-0.8,0.358-0.8,0.8s0.358,0.8,0.8,0.8H9.561z" />
       <path
-        stroke="currentColor"
-        d="M9.5 14.5h4a1 1 0 001-1v-12a1 1 0 00-1-1h-4a1 1 0 00-1 1v12a1 1 0 001 1zm0 0H4m2.5-3v3m2-9h6m-4.5 6h3m-11.5-8h7v8h-7a1 1 0 01-1-1v-6a1 1 0 011-1z"
+        d="M13.568,2.19c-0.002-0.441-0.359-0.798-0.801-0.8H3.232c-0.442,0-0.8,0.358-0.8,0.8s0.358,0.8,0.8,0.8h9.536
+    C13.208,2.985,13.562,2.63,13.568,2.19z"
+      />
+      <path
+        d="M3.232,11.41h4.167c0.442,0,0.8-0.358,0.8-0.801c0-0.441-0.358-0.799-0.8-0.799H3.232c-0.442,0-0.8,0.357-0.8,0.799
+    C2.432,11.052,2.79,11.41,3.232,11.41z"
       />
     </svg>
   );
 }
 
-export default IconComputer;
+MenuIcon.displayName = "MenuIcon";
+
+export default MenuIcon;

@@ -1,15 +1,12 @@
 import React, { useEffect } from "react";
 import "./Skills.scss";
+import iot from "../img/ai2.png"
+import artificial from "../img/vid.png"
+import web from "../img/mach.png"
+import big from "../img/big2.png"
+import com from "../img/mining1.png"
+import security from "../img/deep3.png"
 import WOW from "wow.js";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faComputer,
-  faDesktop,
-  faMobileScreen,
-  faCode,
-  faPhone,
-  faLayerGroup,
-} from "@fortawesome/free-solid-svg-icons";
 
 function Services() {
   useEffect(() => {
@@ -19,126 +16,90 @@ function Services() {
   const cardsData = [
     {
       logo: (
-        <FontAwesomeIcon
-          icon={faComputer}
-          className="text-blue-400"
-          bounce
-          size="3x"
-          style={{ color: "#005eff" }}
-        />
+        <img  className="h-44 w-48"src={iot}/>
       ),
-      title: "web development",
-      description: " Developed a responsive website for Corvanta Analytics, implementing modern design principles and utilizing HTML, CSS, TailWind and JavaScript. Integrated smooth animations and transitions for an enhanced user experience.",
+      title: "ARTIFICIAL INTELIGENCE",
+     
     },
     {
       logo: (
-        <FontAwesomeIcon
-          icon={faDesktop}
-          className="text-blue-400"
-          bounce
-          size="3x"
-          style={{ color: "#005eff" }}
-        />
+        <img className="h-38 w-44" src={artificial}/>
       ),
-      title: "user interface",
-      description: "An e-commerce store built with HTML, CSS, and JavaScript ReactJs. This responsive website provides a seamless shopping experience with dynamic product listing, a secure payment gateway, and user-friendly navigation.",
+      title: "IMAGE AND VIDEO PROCESSING",
+     
     },
     {
+      
       logo: (
-        <FontAwesomeIcon
-          icon={faMobileScreen}
-          className="text-blue-400 "
-          bounce
-          size="3x"
-          style={{ color: "#005eff" }}
-        />
+        <img className="h-44 w-48" src={com}/>
       ),
-      title: "responsive design",
-      description: "A personal portfolio website created using modern web technologies like Tailwind css for Mobile Responsive . Featuring a clean and minimalistic design, this website showcases my skills, It incorporates smooth scrolling etc.",
+      title: "DATA MINING",
+     
     },
+    
   ];
   const cardsData2 = [
     {
       logo: (
-        <FontAwesomeIcon
-          icon={faLayerGroup}
-          className="text-blue-400"
-          bounce
-          size="3x"
-          style={{ color: "#005eff" }}
-        />
+        <img className="h-44 w-48" src={web}/>
       ),
-      title: "web design",
-      description: " Redesigned the website for Myself to enhance its visual appeal, user experience, and overall brand identity. Implemented a modern and responsive design, optimized page load speed, and improved site navigation to increase user engagement and conversion rates.",
+      title:" MACHINE LEARNING",
+     
     },
     {
       logo: (
-        <FontAwesomeIcon
-          icon={faCode}
-          className="text-blue-400 animate__animated animate__bounce"
-          bounce
-          size="3x"
-          style={{ color: "#005eff" }}
-        />
+        <img className="h-44 w-48"src={big}/>
+
       ),
-      title: "clean code",
-      description: "My portfolio showcases clean and structurally organized code, highlighting my dedication to readability and maintainability in my projects The code in my portfolio is meticulously crafted with a focus on cleanliness and structure, enhancing its overall quality. ",
+      title: "BIG DATA",
+     
     },
     {
+     
       logo: (
-        <FontAwesomeIcon
-          icon={faPhone}
-          className="text-blue-400 animate__animated animate__bounce"
-          bounce
-          size="3x"
-          style={{ color: "#005eff" }}
-        />
+        <img className="h-44 w-48" src={security}/>
       ),
-      title: "fast support",
-      description: "efficient support is my priority, ensuring that I respond quickly to any inquiries or issues you may have. I strive to provide timely assistance and address your concerns promptly, ensuring a smooth and hassle-free experience throughout our collaboration.",
+      title: "NEURAL AND DEEP LEARNING",
+     
     },
   ];
   return (
     <>
       <div className="section" id="services">
-        <div className="Name uppercase text-4xl text-blue-600 mt-5 pt-5 font-bold text-center wow rotateIn">
-          Services
+        <div className="Name uppercase text-5xl text-blue-600 mx-5 sm:mx-5  font-bold text-center wow fadeInUp">
+        CALL FOR PAPERS
         </div>
-        <div className="flex flex-wrap justify-center mt-5 wow slideInUp ">
+        <div className="flex flex-wrap justify-center mt-5 wow fadeInUp  ">
           {cardsData.map((card, index) => (
             <div
-              className="w-full  sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 p-4"
+              className="w-full  sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 p-4 transition duration-500 hover:scale-110"
               key={index}
             >
-              <div className="bg-white bg-opacity-10 rounded-lg shadow-lg ">
-                <div className="text-center p-4">{card.logo}</div>
+              <div className="dashboard1 rounded-lg shadow-lg ">
+                <div className="flex justify-center items-center p-4">{card.logo}</div>
                 <div className="px-4 py-2">
                   <h3 className="text-base text-center text-white uppercase font-bold mb-2">
                     {card.title}
                   </h3>
-                  <p className="text-blue-700 text-center text-sm uppercase">
-                    {card.description}
-                  </p>
+                  
                 </div>
               </div>
             </div>
           ))}
         </div>
-        <div className="flex flex-wrap justify-center wow slideInUp">
+        <div className="flex flex-wrap justify-center wow fadeInUp">
           {cardsData2.map((card, index) => (
             <div
-              className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 p-4"
+              className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 p-4 transition duration-500 hover:scale-110"
               key={index}
             >
-              <div className="bg-white bg-opacity-10  rounded-lg shadow-lg ">
-                <div className="text-center p-4">{card.logo}</div>
+              <div className="dashboard1  rounded-lg shadow-lg ">
+                <div className="text-center flex justify-center items-center p-4 ">{card.logo}</div>
                 <div className="px-4 py-2">
                   <h3 className="text-base text-center text-white font-bold mb-2 uppercase">
                     {card.title}
                   </h3>
-                  <p className="text-blue-700 text-center text-sm uppercase">
-                    {card.description}
-                  </p>
+                 
                 </div>
               </div>
             </div>

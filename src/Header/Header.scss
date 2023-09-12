@@ -1,29 +1,29 @@
+.dashboard {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to right top, #10007a, #050c77, #002fa3, #001a6e, #001e69, #002fa3, #002471, #002fa3, #002a84, #002d93, #002fa3, #0631b2);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.dashboard1 {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to right top, #10007a, #002fa3, #001473, #001a6e, #001e69, #00216d, #002471, #002fa3, #10007a, #002d93, #002fa3, #0631b2);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
-.dashboard{
-    margin-top: 0;
-    background-image: url('../img/5539119.jpg');
-    background-position: top center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  .ant-progress-text {
-    color: white !important;
-  }
-  .banner{
-    width:1800px;
-    height: 400px;
-  }
-  // .header{
-  //   background-image: linear-gradient(to right top, #1e0031, #1b012d, #180128, #150024, #11001f, #0f001d, #0d001b, #0b0019, #0b0019, #0c001a, #0c001a, #0c001a);
-  // }
 .overlay-menu {
   position: fixed;
   top: 0;
   left: 0;
-  right: 0;
+  width: 330px;
   bottom: 0;
   z-index: 50;
-  background-image: linear-gradient(to bottom, #030418, #05061d, #060821, #060a26, #060c2b, #060c2b, #060c2b, #060c2b, #060a26, #060821, #05061d, #030418);
+  background-color: rgb(18, 2, 90);
+  box-shadow: black;
   padding: 4px;
   transform: translateX(-100%);
   transition: transform 0.3s ease-in-out;
@@ -32,26 +32,7 @@
 .overlay-menu.open {
   transform: translateX(0);
 }
-.photos{
+.photos {
   height: 30rem;
-  width: 25rem; 
-}
-
-body.menu-open {
-  overflow: hidden;
-}
-
-/* CSS for backdrop element */
-.backdrop {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(255, 255, 255, 0.5);
-  z-index: 40;
-}
-.photo{
-  height: 30rem;
-  width: 35rem; 
+  width: 240rem;
 }
