@@ -11,13 +11,12 @@ function Footer() {
   }, []);
   return (
     <>
-     <footer className="dashboard  px-10 mt-5 py-4 p-5">
+     <footer className="dashboard bottom-0  px-10 mt-5 py-4 p-5">
   <div className="flex flex-col lg:flex-row">
     <div className="flex flex-col w-full lg:w-1/2 p-10 wow fadeInUp">
-      <div className="text-white text-3xl font-extrabold ">Venue Location</div>
+      <div className="text-white text-3xl font-extrabold ">Discover Our Venue</div>
       <div className="text-white text-base mt-3">
-        2023 SRM INSTITUTE OF SCIENCE AND TECHNOLOGY
-        (VADAPALANI CAMPUS), CHENNAI, TAMILNADU, INDIA
+      Experience the future at the SRM INSTITUTE OF SCIENCE AND TECHNOLOGY's VADAPALANI CAMPUS in vibrant Chennai, Tamil Nadu, India.
       </div>
       <div className="text-white text-base font-extrabold mt-3">
         <a
@@ -32,11 +31,10 @@ function Footer() {
     </div>
     <div className="flex flex-col w-full lg:w-1/2 p-10 mt-5 lg:mt-0">
       <div className="text-white text-3xl font-extrabold wow fadeInUp">
-        Social Connection
+      Stay Connected
       </div>
       <div className="text-white text-base mt-3">
-        Don't miss a thing! Receive daily news You should connect social area
-        for Any Proper Updates Anytime
+      Don't miss a beat! Follow us on social media for the latest updates and news about our events.
       </div>
       <div className="text-white text-base font-extrabold mt-3">
         <div className="flex gap-3 mt-6">

@@ -126,9 +126,6 @@ const handlepublications = () => {
               <li>
                 <Link
                   className="text-white font-mono hover:text-blue-700 font-bold  cursor-pointer"
-                  to="registration"
-                  spy={true}
-                  smooth={true}
                   onClick={handleregister}
                 >
                   REGISTRATION
@@ -237,9 +234,7 @@ const handlepublications = () => {
           <li className="">
             <Link
               className="text-white font-mono hover:text-blue-600 text-2xl font-bold cursor-pointer"
-              to="registration"
-              spy={true}
-              smooth={true}
+            
               onClick={() => {
                 handleregister();
                 setMobileMenuOpen(false);

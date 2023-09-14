@@ -26,7 +26,7 @@ export const Home = () => {
     <div className="w-screen dashboard bg-fixed md:w-full   " id="home">
       <div className="p-4 sm:p-8 lg:p-11 flex flex-col items-center">
         <div className="wow fadeInUp text-white text-center w-full">
-          <div className="text-2xl sm:text-3xl leading-tight font-sans font-black py-5">
+          <div className="text-4xl sm:text-4xl leading-tight font-sans font-black py-5">
             INTERNATIONAL CONFERENCE ON INTELLIGENT COMPUTING 
           </div>
           <div className="text-2xl lg:text-3xl font-sans font-black py-5">
@@ -40,6 +40,12 @@ export const Home = () => {
             <div className="flex justify-center">
               {/* <img src={ict} alt="wdwd" className="h-20 w-72 rounded-lg" /> */}
             </div>
+          </div>
+          <div className=" mt-4 text-lg sm:text-2xl leading-tight text-center uppercase  font-sans font-black py-5">
+          Don't miss this opportunity to be a part of a vibrant and intellectually stimulating conference experience
+          </div>
+          <div className="text-lg sm:text-2xl leading-tight text-center uppercase  font-sans font-black py-3">
+          Join us as we explore the frontiers of intelligent computing together.
           </div>
           <div className="mt-7 wow bounceIn items-center text-center">
             <div className="sm:text-base lg:text-xl font-sans font-black py-5">
