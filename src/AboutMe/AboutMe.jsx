@@ -34,12 +34,19 @@ export const AboutMe = () => {
                   ABOUT
                   <div className="mt-2 ">
                     <p className="text-sm sm:text-sm  lg:text-base text-gray-500 font-bold font-sans pb-5 pt-4">
-                      The International Conference on Intelligence Computing is the premier program for the presentation of applied computer science, and the conference invites researchers to contribute to shaping the computing technological advances and research results in the field of intelligence computing. This allows professionals to share their insights, exchange ideas, and explore the landscape of intelligence computing.
-                      Participation is invited from academics and practitioners
-                      who are engaged in current research about the role and
-                      significance of technology and analytics, and who are
-                      interested in topics related to sustainability, ethics,
-                      equity, and social values for global development.
+                      The International Conference on Intelligent Computing is
+                      the premier program for the presentation of applied
+                      computer science, and the conference invites researchers
+                      to contribute to shape the computing technological
+                      advances and research results in the field of intelligent
+                      computing. This allows professionals to share their
+                      insights, exchange ideas, and explore the landscape of
+                      intelligence computing. Participation is invited from
+                      academics and practitioners who are engaged in current
+                      research about the role and significance of technology and
+                      analytics, and who are interested in topics related to
+                      Intelligent computing , ethics, equity, and social values
+                      for global development.
                     </p>
 
                     <button

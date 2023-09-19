@@ -16,7 +16,7 @@ function Footer() {
     <div className="flex flex-col w-full lg:w-1/2 p-10 wow fadeInUp">
       <div className="text-white text-3xl font-extrabold ">Discover Our Venue</div>
       <div className="text-white text-base mt-3">
-      Experience the future at the SRM INSTITUTE OF SCIENCE AND TECHNOLOGY's VADAPALANI CAMPUS in vibrant Chennai, Tamil Nadu, India.
+      Experience the future at the SRM INSTITUTE OF SCIENCE AND TECHNOLOGY VADAPALANI CAMPUS Chennai, Tamil Nadu, India.
       </div>
       <div className="text-white text-base font-extrabold mt-3">
         <a
@@ -76,7 +76,7 @@ function Footer() {
   </div>
   <div className="flex flex-col-reverse divide-y-4 divide-y-reverse">
     <div className="divide-y-4 divide-gray-400 text-white text-center font-extrabold text-2xl pb-4">
-      © 2023.
+      © 2023.ICIC
     </div>
   </div>
 </footer>

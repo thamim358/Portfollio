@@ -22,6 +22,9 @@ export const Publications = () => {
           <div className="text-center text-5xl text-black font-extrabold wow fadeInUp">
             Publications
           </div>
+          <div className="text-center text-2xl font-bold text-gray-600 mt-4">
+Selected papers will be published in the Conference Proceedings with ISBN NO.
+          </div>
           
         </div>
         <Footer/>

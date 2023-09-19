@@ -107,7 +107,7 @@ function Contact() {
                         href="www.123.com"
                         className="text--600 font-mediun text-lg"
                       >
-                        Department of Computer Science and Humanities,
+                        Department of Computer Science and Application(M.C.A),College of Science & Humanaties,SRMIST
                         Vadapalani Campus Chennai - 600026.
                       </a>
                     </div>

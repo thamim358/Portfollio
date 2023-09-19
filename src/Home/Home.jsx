@@ -34,7 +34,7 @@ export const Home = () => {
           </div>
           <div className="mx-4 sm:mx-5 backdrop-blur-sm bg-white/30 rounded-lg drop-shadow-2xl p-4">
             <div className="text-3xl font-sans font-black py-5">
-              ORGANIZED BY DEPARTMENT OF COMPUTER SCIENCE AND APPLICATION (MCA) 
+              ORGANIZED BY DEPARTMENT OF COMPUTER SCIENCE AND APPLICATIONS (M.C.A) 
               {/* ASSOCIATION WITH */}
             </div>
             <div className="flex justify-center">
@@ -45,7 +45,7 @@ export const Home = () => {
           Don't miss this opportunity to be a part of a vibrant and intellectually stimulating conference experience
           </div>
           <div className="text-lg sm:text-2xl leading-tight text-center uppercase  font-sans font-black py-3">
-          Join us as we explore the frontiers of intelligent computing together.
+          Join with us to explore the frontiers of intelligent computing together.
           </div>
           <div className="mt-7 wow bounceIn items-center text-center">
             <div className="sm:text-base lg:text-xl font-sans font-black py-5">

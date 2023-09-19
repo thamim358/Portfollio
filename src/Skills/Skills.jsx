@@ -24,9 +24,7 @@ function Skills() {
             REGISTRATION
           </div>
           <div className="Name uppercase text-xl text-center text-gray-600 mt-5 pt-5 font-bold ">
-            It is mandatory for at least one author of an accepted paper to
-            register in order for the paper to appear in the publication and
-            included in the Technical Program.
+          It must Have atleast one Registerd author in order for it to appear in the publications and be included un the technical program.
           </div>
           <div className="text-center mt-3">
             <span className=" text-base text-center text-gray-600 px-1">

@@ -105,8 +105,7 @@ function ContactUs() {
                         href="www.123.com"
                         className="text--600 font-mediun text-lg"
                       >
-                        Department of Computer Science and Humanities,
-                        Vadapalani Campus Chennai - 600026.
+                       
                       </a>
                     </div>
                   </div>
