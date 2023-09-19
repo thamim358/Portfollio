@@ -83,7 +83,7 @@ export const PaperSubmission = () => {
               professor).
             </p>
             <p className="text-base text-gray-500 mt-4 wow fadeInUp">
-              Mention full address, affiliation, and email of ALL authors,
+              Mention full address,affiliation, and email of ALL authors,
               specify a corresponding author with the corresponding e-mail ID.
               [Once an article is accepted, the publisher will send the
               proofreading of article to this e-mail]
