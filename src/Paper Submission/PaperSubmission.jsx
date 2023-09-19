@@ -80,8 +80,7 @@ export const PaperSubmission = () => {
               Do NOT use any Social / Academic titles (e.g. Mr.,Ms.,Dr.,Prof.
               etc) preceding the author names. Do NOT mention the position of a
               person (e.g., research scholar, student, assistant professor,
-              professor, IEEE member, IEEE student member etc.) in the
-              affiliation.
+              professor).
             </p>
             <p className="text-base text-gray-500 mt-4 wow fadeInUp">
               Mention full address, affiliation, and email of ALL authors,
