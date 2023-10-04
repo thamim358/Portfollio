@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import AboutMe from "./AboutMe/AboutMe";
 import ContactUs from "./ContactUs/ContactUs";
 import Footer from "./Footer/Footer";
@@ -9,6 +9,9 @@ import Services from "./Services/Services";
 
 
 function Landing() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     
     <>

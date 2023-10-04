@@ -33,10 +33,10 @@ function Footer() {
       <div className="text-white text-3xl font-extrabold wow fadeInUp">
       Stay Connected
       </div>
-      <div className="text-white text-base mt-3">
+      <div className="text-white text-base mt-3  wow fadeInUp">
       Don't miss a beat! Follow us on social media for the latest updates and news about our events.
       </div>
-      <div className="flex  gap-3 mt-6 pb-4">
+      <div className="flex  gap-3 mt-6 pb-4  wow fadeInUp">
             <a
               href="https://www.instagram.com/srm_csh_vdp/"
               target="_blank"
@@ -75,7 +75,7 @@ function Footer() {
   </div>
   <div className="flex flex-col-reverse divide-y-4 divide-y-reverse">
     <div className="divide-y-4 divide-gray-400 text-white text-center font-extrabold text-2xl pb-4">
-      © 2023.ICIC
+      © 2024.ICIC
     </div>
   </div>
 </footer>

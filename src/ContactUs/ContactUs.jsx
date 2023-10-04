@@ -63,7 +63,7 @@ function ContactUs() {
                         href="https://mail.google.com/mail/u/0/#inbox"
                         className="text-blue-800 font-mediun text-lg"
                       >
-                       meenakasa@srmist.edu.in
+                       meenaksa@srmist.edu.in
                       </a>
                     </div>
                   </div>
@@ -104,6 +104,8 @@ function ContactUs() {
                      
                         className="text--600 font-mediun text-lg"
                       >
+                        Department of Computer Science and Application(M.C.A),College of Science & Humanaties,SRMIST Vadapalani Campus Chennai - 600026.
+
                        
                       </div>
                     </div>

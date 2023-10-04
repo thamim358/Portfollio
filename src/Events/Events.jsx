@@ -28,6 +28,9 @@ function Events() {
             <div className="text-left  font-bold text-2xl">
               Submission Deadline
             </div>
+            <div className="text-left  font-bold text-2xl">
+              (Full Paper Submission)
+            </div>
             <div className="text-left mt-2">15th November, 2023</div>
           </div>
           <div className="drop-shadow-xl bg-white text-black rounded-lg p-5 hover:bg-gradient-to-r from-blue-700 to-blue-500 mt-4 hover:text-white">

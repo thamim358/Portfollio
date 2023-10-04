@@ -18,19 +18,19 @@ function Register() {
   useEffect(() => {
     const wow = new WOW();
     wow.init();
-    window.scrollTo(0, 0);
+  
   }, []);
 
   return (
     <>
       <Header />
-      <div className="section" id="registration">
-        <div className="mx-3 lg:mx-12 px-5 sm:mx-3">
+      <div className="section lg:mx-10 sm:mx-5 mx-5" id="registration">
+        <div className="">
           <div className="mt-10 text-4xl sm:text-4xl  lg:text-5xl uppercase  text-blue-800 mx-5 sm:mx-5 font-bold text-center wow fadeInUp">
             REGISTRATION
           </div>
           <div className="Name uppercase text-xl text-center text-gray-600 mt-5 pt-5 font-bold ">
-            It must Have atleast one Registerd author in order for it to appear in the publications and be included un the technical program.
+            It must Have atleast one Registered author in order for it to appear in the publications and be included In the technical program.
           </div>
           <div className="text-center mt-3">
             <span className=" text-base text-center text-gray-600 px-1">
@@ -46,12 +46,11 @@ function Register() {
               Registration Form (PDF)
             </a>
           </div>
-          <div className="my-10 mx-4 md:px-6 sm:mx-22">
-            <section className=" ">
+          <div className="mt-10">
               <div className="grid gap-6 lg:grid-cols-3 lg:gap-x-12 ">
                 <div className="mb-6 lg:mb-0 ">
                   <div className="block rounded-lg drop-shadow-xl bg-white shadow-lg">
-                    <div className="z-20 flex justify-end">
+                    <div className="z-1 flex justify-end">
                       <FontAwesomeIcon
                         className="-mt-6  p-2"
                         size="2xl"
@@ -69,13 +68,14 @@ function Register() {
                         />
                       </div>
                       <h2 className="mb-12 text-center text-2xl font-bold">
-                      CORPORATE PROFESSIONAL/OTHERS
+                      CORPORATE PROFESSIONALS/OTHERS
                       </h2>
-
                       <h3 className="mb-6 text-3xl">
-                        <div className="bg-[#3b82f6] p-4 shadow-lg rounded-bl-xl rounded-tr-lg -ml-14 z-20 mt-2">
-                          <strong className="text-center text-white  pl-10 ">
+                        <div className="bg-[#3b82f6] p-4 shadow-lg rounded-bl-xl rounded-tr-lg   mt-2">
+                          <strong className="text-center text-white   ">
                             ₹1000
+
+
                           </strong>
                         </div>
 
@@ -99,7 +99,7 @@ function Register() {
 
                 <div className="mb-6 lg:mb-0 ">
                   <div className="block rounded-lg drop-shadow-xl bg-white shadow-lg">
-                    <div className="z-20 flex justify-end">
+                    <div className="z-1 flex justify-end">
                       <FontAwesomeIcon
                         className="-mt-6  p-2"
                         size="2xl"
@@ -115,12 +115,12 @@ function Register() {
                         style={{ color: "#1d4ed8" }}
                       />
                       <h2 className="mb-12 text-center text-2xl font-bold">
-                        RESEARCH SCHOLARS/FACULTY
+                        RESEARCH SCHOLARS/FACULTYS
                       </h2>
 
                       <h3 className="mb-6 text-3xl">
-                        <div className="bg-[#3b82f6] p-4 shadow-lg rounded-bl-xl rounded-tr-lg -ml-14 z-20 mt-2">
-                          <strong className="text-center text-white  pl-10 ">
+                        <div className="bg-[#3b82f6] p-4 shadow-lg rounded-bl-xl rounded-tr-lg  z-20 mt-2">
+                          <strong className="text-center text-white   ">
                             ₹500
                           </strong>
                         </div>
@@ -144,7 +144,7 @@ function Register() {
                 </div>
                 <div className="mb-6 lg:mb-0 ">
                   <div className="block rounded-lg drop-shadow-xl bg-white shadow-lg">
-                    <div className="z-20 flex justify-end">
+                    <div className="z-1 flex justify-end">
                       <FontAwesomeIcon
                         className="-mt-6  p-2"
                         size="2xl"
@@ -164,8 +164,8 @@ function Register() {
                       </h2>
 
                       <h3 className="mb-6 text-3xl">
-                        <div className="bg-[#3b82f6] p-4 shadow-lg rounded-bl-xl rounded-tr-lg -ml-14 z-20 mt-2">
-                          <strong className="text-center text-white  pl-10 ">
+                        <div className="bg-[#3b82f6] p-4 shadow-lg rounded-bl-xl rounded-tr-lg  z-20 mt-2">
+                          <strong className="text-center text-white   ">
                             ₹250
                           </strong>
                         </div>
@@ -188,11 +188,11 @@ function Register() {
                   </div>
                 </div>
               </div>
-            </section>
+          
           </div>
         </div>
-        <div className="section mx-3 lg:p-20 px-5 sm:mx-3  " id="payment">
-          <p className=" text-3xl sm:text-3xl  lg:text-5xl uppercase  text-blue-800 mx-5 sm:mx-5 font-bold text-center wow fadeInUp">
+        <div className="section  mt-12 sm:mx-4 mx-4 " id="payment">
+          <p className=" text-3xl sm:text-2xl  lg:text-5xl uppercase  text-blue-800 mx-5 sm:mx-5 font-bold text-center wow fadeInUp">
             PAYMENT DETAILS
           </p>
 
@@ -216,7 +216,7 @@ function Register() {
                       <li>
                       →  Email the compressed file, along with your payment
                         proof, to:{" "}<span className="text-blue-600">
-                      meenakasa@srmist.edu.in
+                      meenaksa@srmist.edu.in
                     </span>
                       </li>
                     </ol>

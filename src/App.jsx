@@ -1,4 +1,4 @@
-import React from "react";
+import React ,{ useEffect }from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Landing from "./Landing";
 import AboutDetails from "./AboutMe/AboutDetails";
@@ -10,7 +10,20 @@ import Contact from "./Contact/contact";
 import Events from "./Events/Events";
 import { KeyNotes } from "./KeyNotes/KeyNotes";
 
+
 function App() {
+  useEffect(() => {
+    function handlePageShow(event) {
+      if (event.persisted) {
+        window.location.reload();
+      }
+    }
+  
+    window.addEventListener('pageshow', handlePageShow);
+    return () => {
+      window.removeEventListener('pageshow', handlePageShow);
+    };
+  }, []);
   return (
     <>
       <Router>

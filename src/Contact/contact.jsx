@@ -66,7 +66,7 @@ function Contact() {
                         href="https://mail.google.com"
                         className="text-blue-800 font-mediun text-lg"
                       >
-                        meenakasa@srmist.edu.in
+                        meenaksa@srmist.edu.in
                       </a>
                     </div>
                   </div>

@@ -11,11 +11,8 @@ export const Home = () => {
   useEffect(() => {
     const wow = new WOW();
     wow.init();
+    window.scrollTo(0, 0);
   }, []);
-  const handleChange = (value) => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-    navigate("/AboutDetails");
-  };
   return (
     <div className="w-screen home saturate-100 backdrop-contrast-200  bg-fixed md:w-full   " id="home">
       <div className="p-4 sm:p-8 lg:p-11 flex flex-col items-center">
@@ -25,6 +22,9 @@ export const Home = () => {
           </div>
           <div className=" text-2xl lg:text-3xl sm:text-2xl leading-tight font-sans font-black py-5">
             FIRST INTERNATIONAL CONFERENCE ON INTELLIGENT COMPUTING
+          </div>
+          <div className=" text-2xl lg:text-3xl sm:text-2xl leading-tight font-sans font-black">
+          (HYBRID MODE)
           </div>
           <div className="text-xl lg:text-2xl leading-tight font-sans font-black py-5">
             HELD ON 5th JANUARY 2024
@@ -44,7 +44,7 @@ export const Home = () => {
           </div>
           <div className=" mt-4 text-lg sm:text-2xl leading-tight text-center uppercase  font-sans font-black py-5">
             Don't miss this opportunity to be a part of a vibrant and
-            intellectually stimulating conference experience
+            intellectual stimulating conference experience
           </div>
           <div className="text-lg sm:text-2xl leading-tight text-center uppercase  font-sans font-black py-3">
             Join with us to explore the frontiers of intelligent computing

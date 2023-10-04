@@ -2,16 +2,16 @@ import React, { useEffect, useRef, useState } from "react";
 import { useNavigate } from 'react-router-dom';
 import { Link } from "react-scroll";
 import WOW from "wow.js";
-import logo from "../img/logo.png";
+import logo from "../img/FINAL-new-logo.jpeg";
 import "./Header.scss";
 function Header() {
   useEffect(() => {
     const wow = new WOW();
-   
     wow.init();
+    window.scrollTo(0, 0);
   }, []);
   const navigate = useNavigate(); 
-  const handleHome = () => {
+const handleHome = () => {
     navigate("/home");
 };
 const handleregister = () => {
@@ -79,10 +79,10 @@ const handleEvent = () => {
             <div className="flex justify-between md:hidden">
               <button
                 onClick={toggleMobileMenu}
-                className="text-white flex justify-end ml-10 hover:text-purple-600 focus:outline-none"
+                className="text-white flex justify-end  hover:text-purple-600 focus:outline-none"
               >
                 <svg
-                  className="w-6 h-6 mx-11"
+                  className="w-6 h-6 "
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
