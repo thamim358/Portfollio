@@ -20,7 +20,7 @@ function Skills() {
     <>
       <div className="section" id="registration">
         <div className="mx-3 lg:mx-12 px-5 sm:mx-3">
-          <div className=" mt-10 text-4xl sm:text-4xl  lg:text-5xl uppercase  text-blue-600 mx-5 sm:mx-5 font-bold text-center wow fadeInUp">
+          <div className=" mt-10 text-4xl sm:text-4xl  lg:text-5xl uppercase  text-blue-800 mx-5 sm:mx-5 font-bold text-center wow fadeInUp">
             REGISTRATION
           </div>
           <div className="Name uppercase text-xl text-center text-gray-600 mt-5 pt-5 font-bold ">
@@ -32,7 +32,7 @@ function Skills() {
             </span>
 
             <a
-              className="uppercase text-base text-blue-600 font-bold "
+              className="uppercase text-base text-blue-800 font-bold "
               href={registerform}
               download="register"
               target="_blank"

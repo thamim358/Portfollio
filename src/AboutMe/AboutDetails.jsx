@@ -14,8 +14,8 @@ function AboutDetails() {
     <>
       <Header />
       <div className="section" id="aboutsection">
-        <div className="py-10 px-5 mx-12">
-          <div className="text-center text-5xl text-blue-500 text-black font-extrabold wow fadeInUp">
+        <div className="py-10 px-5 lg:mx-12">
+          <div className="text-center text-5xl text-blue-800 text-black font-extrabold wow fadeInUp">
             ABOUT
           </div>
           <div className="text-left text-3xl text-black font-extrabold mt-10">

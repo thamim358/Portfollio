@@ -1,14 +1,11 @@
 import React from "react";
-import "./Landing.scss";
-import Header from "./Header/Header";
+import AboutMe from "./AboutMe/AboutMe";
 import ContactUs from "./ContactUs/ContactUs";
 import Footer from "./Footer/Footer";
-import Services from "./Services/Services";
-import AboutMe from "./AboutMe/AboutMe";
-import Skills from "./Skills/Skills";
-import Events from "./Events/Events";
+import Header from "./Header/Header";
 import Home from "./Home/Home";
-import Payment from "./Payment/Payment";
+import "./Landing.scss";
+import Services from "./Services/Services";
 
 
 function Landing() {

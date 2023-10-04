@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import registerform from "../img/register.pdf";
 import "../Header/Header.scss";
 import WOW from "wow.js";
-import logoimg from "../img/payQR.png";
+import logoimg from "../img/UPI.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGraduationCap,
@@ -12,6 +12,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
+import { Link } from "react-scroll";
 
 function Register() {
   useEffect(() => {
@@ -25,7 +26,7 @@ function Register() {
       <Header />
       <div className="section" id="registration">
         <div className="mx-3 lg:mx-12 px-5 sm:mx-3">
-          <div className="mt-10 text-4xl sm:text-4xl  lg:text-5xl uppercase  text-blue-600 mx-5 sm:mx-5 font-bold text-center wow fadeInUp">
+          <div className="mt-10 text-4xl sm:text-4xl  lg:text-5xl uppercase  text-blue-800 mx-5 sm:mx-5 font-bold text-center wow fadeInUp">
             REGISTRATION
           </div>
           <div className="Name uppercase text-xl text-center text-gray-600 mt-5 pt-5 font-bold ">
@@ -37,7 +38,7 @@ function Register() {
             </span>
 
             <a
-              className="uppercase text-base text-blue-600 font-bold "
+              className="uppercase text-base text-blue-800 font-bold "
               href={registerform}
               download="register"
               target="_blank"
@@ -83,13 +84,15 @@ function Register() {
                         </div>
                       </h3>
 
-                      <button
+                      <Link
                         className="mt-3 bg-gradient-to-r from-[#005eff] to-blue-400 text-white font-bold py-1 px-4 rounded-md hover:from-yellow-600 hover:to-blue-500 wow bounceIn cursor-pointer text-lg"
-                        type="submit"
+                        to="payment"
+                        spy={true}
+                        smooth={true}
                         // onClick={() => navigate('/AboutDetails')}
                       >
                         REGISTER NOW
-                      </button>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -127,13 +130,15 @@ function Register() {
                         </div>
                       </h3>
 
-                      <button
-                        className="mt-3 bg-gradient-to-r from-[#005eff] to-blue-400 text-white font-bold py-1 px-4 rounded-md hover:from-yellow-600 hover:to-blue-500 wow bounceIn cursor-pointer text-lg"
-                        type="submit"
+                      <Link
+                        className="mt-5 bg-gradient-to-r from-[#005eff] to-blue-400 text-white font-bold py-1 px-4 rounded-md hover:from-yellow-600 hover:to-blue-500 wow bounceIn cursor-pointer text-lg"
+                        to="payment"
+                        spy={true}
+                        smooth={true}
                         // onClick={() => navigate('/AboutDetails')}
                       >
                         REGISTER NOW
-                      </button>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -170,13 +175,15 @@ function Register() {
                         </div>
                       </h3>
 
-                      <button
+                      <Link
                         className="mt-3 bg-gradient-to-r from-[#005eff] to-blue-400 text-white font-bold py-1 px-4 rounded-md hover:from-yellow-600 hover:to-blue-500 wow bounceIn cursor-pointer text-lg"
-                        type="submit"
-                        // onClick={() => navigate('/AboutDetails')}
+                        to="payment"
+                        spy={true}
+                        smooth={true}
+                        
                       >
                         REGISTER NOW
-                      </button>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -184,13 +191,13 @@ function Register() {
             </section>
           </div>
         </div>
-        <div className="section mx-3 lg:p-20 px-5 sm:mx-3  " id="whyme">
-          <p className=" text-3xl sm:text-3xl  lg:text-5xl uppercase  text-blue-600 mx-5 sm:mx-5 font-bold text-center wow fadeInUp">
+        <div className="section mx-3 lg:p-20 px-5 sm:mx-3  " id="payment">
+          <p className=" text-3xl sm:text-3xl  lg:text-5xl uppercase  text-blue-800 mx-5 sm:mx-5 font-bold text-center wow fadeInUp">
             PAYMENT DETAILS
           </p>
 
           <div className="">
-            <div className="context lg:mr-8 mt-5">
+            <div className="context lg:mr-8 mt-9">
               <ul className="list-disc marker:text-black-500">
                 <div className="wow fadeInUp">
                   <div className="">
@@ -225,7 +232,7 @@ function Register() {
                       <p className="text-gray-600 wow fadeInUp  mb-5 text-lg font-bold">
                         A/c No :{" "}
                         <span className="text-gray-500 font-medium">
-                          500101011067710
+                        500101013160065
                         </span>
                       </p>
                       <p className="text-gray-600 wow fadeInUp  mb-5 text-lg font-bold">
@@ -243,16 +250,16 @@ function Register() {
                       <p className="text-gray-600 wow fadeInUp  mb-5 text-lg font-bold">
                         Branch :{" "}
                         <span className="text-gray-500 font-medium">
-                          Tambaram, Chennai.i
+                          Tambaram, Chennai
                         </span>
                       </p>
                       
                     </div>
                   </div>
                   <div className=" ml-4">
-                    <img src={logoimg} alt="wdwd" className="" />
+                    <img src={logoimg} alt="wdwd" className="w-full h-full lg:w-80 lg:h-72" />
                   </div>
-                  <p className="text-gray-600 wow fadeInUp  mb-5 text-lg font-bold">Your registration will be confirmed upon receipt of all required documents and payment.</p>
+                  <p className="text-gray-600 wow fadeInUp  mb-5 text-lg font-bold mt-4">Your registration will be confirmed upon receipt of all required documents and payment.</p>
       
                 </div>
               </ul>

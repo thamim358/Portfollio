@@ -126,7 +126,7 @@ export const Commitee = () => {
       <Header />
       <div className="section" id="aboutsection">
         <div className="py-10 px-5  lg:mx-20">
-          <div className="text-center text-5xl text-black font-extrabold wow fadeInUp">
+          <div className="text-center text-5xl text-blue-800 font-extrabold wow fadeInUp uppercase">
             Committee
           </div>
           <div className="mt-10">

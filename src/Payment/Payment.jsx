@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import "../Header/Header.scss";
 import WOW from "wow.js";
-import logoimg from "../img/payQR.png";
+import logoimg from "../img/UPI.png";
 
 function Payment() {
   useEffect(() => {
@@ -11,12 +11,12 @@ function Payment() {
   return (
     <>
       <div className="section mx-3 lg:p-20 px-5 sm:mx-3" id="whyme">
-        <p className=" text-4xl sm:text-4xl  lg:text-5xl uppercase  text-blue-600 mx-5 sm:mx-5 font-bold text-center wow fadeInUp">
+        <p className=" text-4xl sm:text-4xl  lg:text-5xl uppercase  text-blue-800 mx-5 sm:mx-5 font-bold text-center wow fadeInUp">
           PAYMENT DETAILS
         </p>
 
         <div className="">
-            <div className="context lg:mr-8 mt-5">
+            <div className="context lg:mr-8 mt-9">
               <ul className="list-disc marker:text-black-500">
                 <div className="wow fadeInUp">
                   <div className="">
@@ -51,7 +51,7 @@ function Payment() {
                       <p className="text-gray-600 wow fadeInUp  mb-5 text-lg font-bold">
                         A/c No :{" "}
                         <span className="text-gray-500 font-medium">
-                          500101011067710
+                          500101013160065
                         </span>
                       </p>
                       <p className="text-gray-600 wow fadeInUp  mb-5 text-lg font-bold">
@@ -69,7 +69,7 @@ function Payment() {
                       <p className="text-gray-600 wow fadeInUp  mb-5 text-lg font-bold">
                         Branch :{" "}
                         <span className="text-gray-500 font-medium">
-                          Tambaram, Chennai.i
+                          Tambaram, Chennai
                         </span>
                       </p>
                       

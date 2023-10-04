@@ -14,7 +14,7 @@ function Events() {
     <>
     <Header/>
       <div className="section " id="services">
-        <div className="text-4xl sm:text-4xl  lg:text-5xl uppercase  text-blue-600 mx-5 sm:mx-5 font-bold text-center wow fadeInUp pt-10">
+        <div className="text-4xl sm:text-4xl  lg:text-5xl uppercase  text-blue-800 mx-5 sm:mx-5 font-bold text-center wow fadeInUp pt-10">
           EVENT SCHEDULE
         </div>
         <p

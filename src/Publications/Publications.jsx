@@ -19,15 +19,15 @@ export const Publications = () => {
       <Header />
       <div className="section" id="aboutsection">
         <div className="py-10 px-5 mx-8 lg:mx-20">
-          <div className="text-center text-5xl text-black font-extrabold wow fadeInUp">
+          <div className="text-center text-5xl text-blue-800 uppercase font-extrabold wow fadeInUp">
             Publications
           </div>
           <div className="text-center text-2xl font-bold text-gray-600 mt-4">
-Selected papers will be published in the Conference Proceedings with ISBN NO.
+            Selected papers will be published in the Conference Proceedings with
+            ISBN NO.
           </div>
-          
         </div>
-        <Footer/>
+        <Footer />
       </div>
     </>
   );

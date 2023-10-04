@@ -30,10 +30,10 @@ export const AboutMe = () => {
           <div className="context ">
             <ul className="list-disc marker:text-black-500">
               <div className="lg:pl-9 wow fadeInUp">
-                <div className="text-3xl lg:text-5xl text-blue-600  font-bold font-sans  ">
+                <div className="text-3xl lg:text-5xl text-blue-800  font-bold font-sans  ">
                   ABOUT THE CONFERENCE
                   <div className="mt-2 ">
-                    <p className="text-sm sm:text-sm  lg:text-base text-gray-500 font-bold font-sans pb-5 pt-4">
+                    <p className="text-sm sm:text-sm  lg:text-base text-gray-500 font-semibold font-sans pb-5 pt-4">
                       The first edition of the International Conference on Intelligent Computing held at vadapalani.
                       The premier program for the presentation of applied
                       computer science, and the conference invites researchers
@@ -41,7 +41,7 @@ export const AboutMe = () => {
                       advances and research results in the field of intelligent
                       computing. This allows professionals to share their
                       insights, exchange ideas, and explore the landscape of
-                      intelligence computing. Participation is invited from
+                      intelligent computing. Participation is invited from
                       academics and practitioners who are engaged in current
                       research about the role and significance of technology and
                       analytics, and who are interested in topics related to

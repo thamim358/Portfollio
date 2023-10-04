@@ -17,7 +17,7 @@ export const PaperSubmission = () => {
         <Header />
       <div className="mx-3 lg:mx-12 px-5 sm:mx-3">
         <div className="py-10  wow fadeInUp">
-          <div className="text-4xl sm:text-4xl  lg:text-5xl uppercase  text-blue-600 mx-5 sm:mx-5 font-bold text-center wow fadeInUp">
+          <div className="text-4xl sm:text-4xl  lg:text-5xl uppercase  text-blue-800 mx-5 sm:mx-5 font-bold text-center wow fadeInUp">
             Paper Submission
           </div>
 

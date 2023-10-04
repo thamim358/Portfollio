@@ -8,6 +8,7 @@ import { PaperSubmission } from "./Paper Submission/PaperSubmission";
 import Register from "./Registration/Register";
 import Contact from "./Contact/contact";
 import Events from "./Events/Events";
+import { KeyNotes } from "./KeyNotes/KeyNotes";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/registration" element={<Register />} />
           <Route path="/contactus" element={<Contact />} />
           <Route path="/event" element={<Events />} />
+          <Route path="/keynotes" element={<KeyNotes />} />
         </Routes>
       </Router>
     </>

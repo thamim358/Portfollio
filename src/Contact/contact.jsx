@@ -24,7 +24,7 @@ function Contact() {
       <section className="contact space" id="contactme">
         <Container>
           <div className="lg:px-10 pb-10">
-            <div className="Name uppercase text-5xl text-center p-10 font-bold wow fadeInUp">
+            <div className="Name uppercase text-5xl text-blue-800 text-center p-10 font-bold wow fadeInUp">
               CONTACT US
             </div>
             <Row className="flex flex-col justify-center items-center md:flex-row ">
@@ -63,8 +63,8 @@ function Contact() {
                         Email Address
                       </div>
                       <a
-                        href="www.gmail.com"
-                        className="text-blue-600 font-mediun text-lg"
+                        href="https://mail.google.com"
+                        className="text-blue-800 font-mediun text-lg"
                       >
                         meenakasa@srmist.edu.in
                       </a>
@@ -83,12 +83,12 @@ function Contact() {
                       <div className="text-gray-600 font-mediun text-lg ">
                         Phone Number
                       </div>
-                      <a
+                      <div
                         href="www.123.com"
-                        className="text-blue-600 font-mediun text-lg"
+                        className="text-blue-800 font-mediun text-lg"
                       >
                             +91 98407 34471
-                      </a>
+                      </div>
                     </div>
                   </div>
                   <div className="flex  mt-3 ">
@@ -104,13 +104,13 @@ function Contact() {
                       <div className="text-gray-600 font-mediun text-lg ">
                         Location
                       </div>
-                      <a
-                        href="www.123.com"
+                      <div
+                      
                         className="text--600 font-mediun text-lg"
                       >
                         Department of Computer Science and Application(M.C.A),College of Science & Humanaties,SRMIST
                         Vadapalani Campus Chennai - 600026.
-                      </a>
+                      </div>
                     </div>
                   </div>
                 </div>

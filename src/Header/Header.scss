@@ -6,6 +6,13 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+.home {
+  background: linear-gradient(to right top, rgba(0, 0, 0, 0.5), rgba(8, 6, 6, 0.5), rgba(8, 6, 6, 0.5)), url('../img/img-background1.jpg'); 
+  background-position: top center;
+  background-size: cover;
+  // background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 .dashboard1 {
   margin: 0;
   padding: 0;
