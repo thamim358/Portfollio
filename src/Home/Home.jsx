@@ -26,10 +26,10 @@ export const Home = () => {
     <div className="w-screen dashboard bg-fixed md:w-full   " id="home">
       <div className="p-4 sm:p-8 lg:p-11 flex flex-col items-center">
         <div className="wow fadeInUp text-white text-center w-full">
-        <div className="text-4xl sm:text-3xl leading-tight font-sans font-black py-5">
+        <div className="text-2xl lg:text-4xl sm:text-3xl leading-tight font-sans font-black py-5">
          WELCOME TO ICIC 2024
           </div>
-          <div className="text-4xl sm:text-3xl leading-tight font-sans font-black py-5">
+          <div className=" text-2xl lg:text-3xl sm:text-2xl leading-tight font-sans font-black py-5">
            FIRST INTERNATIONAL CONFERENCE ON INTELLIGENT COMPUTING 
           </div>
             <div className="text-xl lg:text-2xl leading-tight font-sans font-black py-5">

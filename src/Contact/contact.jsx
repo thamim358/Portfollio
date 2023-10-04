@@ -28,7 +28,7 @@ function Contact() {
               CONTACT US
             </div>
             <Row className="flex flex-col justify-center items-center md:flex-row ">
-              <Col
+            <Col
                 size={12}
                 md={6}
                 className="mx-5 sm:mx-5 md:w-3/5 lg:px-10 tracking-wider wow fadeInUp"
@@ -45,6 +45,7 @@ function Contact() {
                   </div>
                 </div>
               </Col>
+
 
               <Col size={12} md={6}>
                 <div className="sm:p-7 lg:mt-5 p-4 mt-5 mr-10 justify-self-center md:justify-center">

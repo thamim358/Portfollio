@@ -67,7 +67,7 @@ const handleEvent = () => {
         id="Navbar"
         className="sticky top-0 left-0 right-0 w-full dashboard1 nav-bar sm:w-full z-10 "
       >
-        <div className="  sm:p-4 flex items-center lg:mx-5  justify-between py-3 ">
+        <div className=" mx-5 sm:mx-10 flex items-center lg:mx-8 justify-between py-3 ">
           <div className=" font-bold font-mono text-4xl  wow lightSpeedIn">
             
             <img src={logo} alt="wdwd" className="h-14 w-14"/>

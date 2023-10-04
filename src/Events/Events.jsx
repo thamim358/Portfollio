@@ -49,14 +49,7 @@ function Events() {
             We eagerly await your contributions and look forward to your
             participation in our conference!
           </p>
-          <Link
-            className=" bg-gradient-to-r from-[#005eff] to-blue-400 text-white font-bold py-2 px-4 rounded-md hover:from-yellow-600 hover:to-blue-500 wow bounceIn cursor-pointer text-lg"
-            to="registration"
-            spy={true}
-            smooth={true}
-          >
-            REGISTER NOW
-          </Link>
+      
         </div>
       </div>
       <Footer/>
