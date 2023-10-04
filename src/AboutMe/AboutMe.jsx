@@ -20,22 +20,22 @@ export const AboutMe = () => {
       <div className="py-10 lg:mx-10 sm:mx-2">
         <div className="  p-10  flex flex-col lg:flex-row justify-center items-center  ">
           <div className="image">
-            <img
+            {/* <img
               className="photos  mt-4 lg:mt-8 w-full  mb-4 lg:mb-8 rounded-2xl"
               src={logoimg}
               alt="Logo Image"
-            />
+            /> */}
           </div>
 
           <div className="context ">
             <ul className="list-disc marker:text-black-500">
               <div className="lg:pl-9 wow fadeInUp">
                 <div className="text-3xl lg:text-5xl text-blue-600  font-bold font-sans  ">
-                  ABOUT
+                  ABOUT THE CONFERENCE
                   <div className="mt-2 ">
                     <p className="text-sm sm:text-sm  lg:text-base text-gray-500 font-bold font-sans pb-5 pt-4">
-                      The International Conference on Intelligent Computing is
-                      the premier program for the presentation of applied
+                      The first edition of the International Conference on Intelligent Computing held at vadapalani.
+                      The premier program for the presentation of applied
                       computer science, and the conference invites researchers
                       to contribute to shape the computing technological
                       advances and research results in the field of intelligent
@@ -48,6 +48,28 @@ export const AboutMe = () => {
                       Intelligent computing , ethics, equity, and social values
                       for global development.
                     </p>
+                    <ul>
+                      <li className="text-sm sm:text-sm  lg:text-base text-gray-500 font-bold font-sans pt-2">
+                      ‣ ARTIFICIAL INTELIGENCE
+                      </li>
+                      <li className="text-sm sm:text-sm  lg:text-base text-gray-500 font-bold font-sans pt-2">
+
+                      ‣ IMAGE AND VIDEO PROCESSING
+                      </li>
+                      <li className="text-sm sm:text-sm  lg:text-base text-gray-500 font-bold font-sans pt-2">
+                      ‣ DATA MINING
+                      </li>
+                      <li className="text-sm sm:text-sm  lg:text-base text-gray-500 font-bold font-sans pt-2">
+                      ‣ MACHINE LEARNING
+                      </li>
+                      <li className="text-sm sm:text-sm  lg:text-base text-gray-500 font-bold font-sans pt-2">
+                      ‣ BIG DATA
+                      </li>
+                      <li className="text-sm sm:text-sm  lg:text-base text-gray-500 font-bold font-sans pt-2">
+                      ‣ NEURAL AND DEEP LEARNING
+                      </li>
+
+                    </ul>
 
                     <button
                       className="mt-3 bg-gradient-to-r from-[#005eff] to-blue-400 text-white font-bold py-1 px-4 rounded-md hover:from-pink-500 hover:to-yellow-500 wow bounceIn cursor-pointer text-lg"

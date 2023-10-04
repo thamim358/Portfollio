@@ -7,6 +7,7 @@ import Commitee from "./Commitee/Commitee";
 import { PaperSubmission } from "./Paper Submission/PaperSubmission";
 import Register from "./Registration/Register";
 import Contact from "./Contact/contact";
+import Events from "./Events/Events";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/publications" element={<Publications />} />
           <Route path="/registration" element={<Register />} />
           <Route path="/contactus" element={<Contact />} />
+          <Route path="/event" element={<Events />} />
         </Routes>
       </Router>
     </>

@@ -68,7 +68,7 @@ function Register() {
                         />
                       </div>
                       <h2 className="mb-12 text-center text-2xl font-bold">
-                        ACADEMICIANS
+                      CORPORATE PROFESSIONAL/OTHERS
                       </h2>
 
                       <h3 className="mb-6 text-3xl">
@@ -112,13 +112,13 @@ function Register() {
                         style={{ color: "#1d4ed8" }}
                       />
                       <h2 className="mb-12 text-center text-2xl font-bold">
-                        RESEARCH SCHOLARS
+                        RESEARCH SCHOLARS/FACULTY
                       </h2>
 
                       <h3 className="mb-6 text-3xl">
                         <div className="bg-[#3b82f6] p-4 shadow-lg rounded-bl-xl rounded-tr-lg -ml-14 z-20 mt-2">
                           <strong className="text-center text-white  pl-10 ">
-                            ₹750
+                            ₹500
                           </strong>
                         </div>
 
@@ -154,14 +154,14 @@ function Register() {
                         icon={faSchool}
                         style={{ color: "#1d4ed8" }}
                       />
-                      <h2 className="mb-12 text-center text-2xl font-bold">
+                      <h2 className="mb-12 text-center text-2xl font-bold pb-8">
                         UG/PG STUDENTS
                       </h2>
 
                       <h3 className="mb-6 text-3xl">
                         <div className="bg-[#3b82f6] p-4 shadow-lg rounded-bl-xl rounded-tr-lg -ml-14 z-20 mt-2">
                           <strong className="text-center text-white  pl-10 ">
-                            ₹500
+                            ₹250
                           </strong>
                         </div>
 

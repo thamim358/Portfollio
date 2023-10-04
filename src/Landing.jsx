@@ -19,9 +19,9 @@ function Landing() {
       <Home/>
       <AboutMe/>
       <Services/>
-      <Skills/>
-      <Payment/>
-      <Events/>
+      {/* <Skills/> */}
+      {/* <Payment/> */}
+      {/* <Events/> */}
       <ContactUs/>
       <Footer/>
      

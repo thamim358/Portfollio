@@ -29,6 +29,10 @@ const handlepaper = () => {
 const handlepublications = () => {
   navigate("/publications");
 };
+
+const handleEvent = () => {
+  navigate("/event");
+};
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
   const mobileMenuRef = useRef(null);
 
@@ -63,13 +67,13 @@ const handlepublications = () => {
         id="Navbar"
         className="sticky top-0 left-0 right-0 w-full dashboard1 nav-bar sm:w-full z-10 "
       >
-        <div className=" sm:p-4 md:mx-10 lg:mx-15 flex items-center justify-between py-3 ">
-          <div className=" font-black font-mono text-4xl  wow lightSpeedIn ml-8">
+        <div className="  sm:p-4 flex items-center lg:mx-5  justify-between py-3 ">
+          <div className=" font-bold font-mono text-4xl  wow lightSpeedIn">
             
-            <img src={logo} alt="wdwd" className="h-20 w-20"/>
+            <img src={logo} alt="wdwd" className="h-14 w-14"/>
           </div>
           <nav>
-            <div className="flex items-center justify-between md:hidden">
+            <div className="flex justify-between md:hidden">
               <button
                 onClick={toggleMobileMenu}
                 className="text-white flex justify-end ml-10 hover:text-purple-600 focus:outline-none"
@@ -101,11 +105,11 @@ const handlepublications = () => {
             <ul
               className={`${
                 isMobileMenuOpen ? "hidden" : "hidden"
-              } md:flex md:space-x-5 tracking-widest justify-between items-center `}
+              } md:flex md:space-x-5 justify-between items-center `}
             >
               <li>
                 <Link
-                  className="text-white font-mono hover:text-blue-700  font-bold cursor-pointer"
+                  className="text-white font-mono hover:text-blue-700   cursor-pointer"
                   activeClass="active"
                   to="home"
                   spy={true}
@@ -116,16 +120,41 @@ const handlepublications = () => {
                 </Link>
               </li>
               <li>
+                <Link
+                  className="text-white font-mono hover:text-blue-700   cursor-pointer"
+                  activeClass="active"
+                  to="home"
+                  spy={true}
+                  smooth={true}
+                  onClick={handleEvent}
+                >
+                  IMPORTANT DATES
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="text-white font-mono hover:text-blue-700   cursor-pointer"
+                  activeClass="active"
+                  to="home"
+                  spy={true}
+                  smooth={true}
+                  onClick={handleHome}
+                >
+                  KEY NOTES
+                </Link>
+              </li>
+              <li>
                 <div
-                  className="text-white font-mono hover:text-blue-700  font-bold cursor-pointer"
+                  className="text-white font-mono hover:text-blue-700   cursor-pointer"
                   onClick={handlepublications}
                 >
                   PUBLICATIONS
                 </div>
               </li>
+              {/* <img src={logo} alt="wdwd" className="h-16 w-16"/> */}
               <li>
                 <Link
-                  className="text-white font-mono hover:text-blue-700 font-bold  cursor-pointer"
+                  className="text-white font-mono hover:text-blue-700   cursor-pointer"
                   onClick={handleregister}
                 >
                   REGISTRATION
@@ -133,7 +162,7 @@ const handlepublications = () => {
               </li>
               <li>
                 <div
-                  className="text-white font-mono hover:text-blue-700 font-bold cursor-pointer"
+                  className="text-white font-mono hover:text-blue-700  cursor-pointer"
                   onClick={handleCommitee}
                 >
                   COMMITTEE
@@ -141,7 +170,7 @@ const handlepublications = () => {
               </li>
               <li className="">
                 <div
-                  className="text-white font-mono hover:text-blue-700 font-bold  cursor-pointer"
+                  className="text-white font-mono hover:text-blue-700   cursor-pointer"
 
                   onClick={handlepaper}
                 >
@@ -151,7 +180,7 @@ const handlepublications = () => {
 
               <li className="">
                 <Link
-                  className="text-white font-mono hover:text-blue-700 font-bold  cursor-pointer"
+                  className="text-white font-mono hover:text-blue-700   cursor-pointer"
                   to="contactme"
                   spy={true}
                   smooth={true}
@@ -231,6 +260,36 @@ const handlepublications = () => {
               → PUBLICATIONS
             </div>
           </li>
+          <li>
+                <Link
+                  className="text-white font-mono hover:text-blue-600 text-2xl font-bold cursor-pointerr"
+                  activeClass="active"
+                  to="home"
+                  spy={true}
+                  smooth={true}
+                  onClick={() => {
+                    handleEvent();
+                    setMobileMenuOpen(false);
+                  }}
+                >
+                  → IMPORTANT DATES
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="text-white font-mono hover:text-blue-600 text-2xl font-bold cursor-pointerr"
+                  activeClass="active"
+                  to="home"
+                  spy={true}
+                  smooth={true}
+                  onClick={() => {
+                    handleEvent();
+                    setMobileMenuOpen(false);
+                  }}
+                >
+                  → KEY NOTES
+                </Link>
+              </li>
           <li className="">
             <Link
               className="text-white font-mono hover:text-blue-600 text-2xl font-bold cursor-pointer"
