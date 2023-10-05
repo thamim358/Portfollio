@@ -34,11 +34,12 @@ export const AboutMe = () => {
                   ABOUT THE CONFERENCE
                   <div className="mt-2 ">
                     <p className="text-sm sm:text-sm  lg:text-base text-gray-500 font-semibold font-sans pb-5 pt-4">
-                      The first edition of the International Conference on Intelligent Computing held at vadapalani.
-                      The premier program for the presentation of applied
-                      computer science, and the conference invites researchers
-                      to contribute to shape the computing technological
-                      advances and research results in the field of intelligent
+                      The first edition of the International Conference on
+                      Intelligent Computing held at srmist vadapalani. The
+                      premier program for the presentation of applied computer
+                      science, and the conference invites researchers to
+                      contribute to shape the computing technological advances
+                      and research results in the field of intelligent
                       computing. This allows professionals to share their
                       insights, exchange ideas, and explore the landscape of
                       intelligent computing. Participation is invited from
@@ -48,28 +49,108 @@ export const AboutMe = () => {
                       Intelligent computing , ethics, equity, and social values
                       for global development.
                     </p>
-                    <ul>
-                      <li className="text-sm sm:text-sm  lg:text-base text-gray-500 font-bold font-sans pt-2">
-                      ‣ ARTIFICIAL INTELIGENCE
+                    <p className="text-sm sm:text-sm uppercase lg:text-lg text-gray-500 font-semibold font-sans pb-5 pt-4">
+                      The topics of interst include,but are not limited to,the
+                      following:
+                    </p>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 uppercase">
+                      {/* Column 1: Machine Learning */}
+                      <ul>
+                        <li className="uppercase text-semibold text-blue-800 text-base">
+                          Machine Learning 
+                        </li>
+                        <li className="text-sm text-gray-500 font-medium font-sans pt-2">
+                        ‣ Learning Method and Analysis
+                        </li>
+                        <li className="text-sm text-gray-500 font-medium font-sans pt-2">
+                        ‣ Machine Learning Applications
+                        </li>
+                        <li className="text-sm  text-gray-500 font-medium  font-sans pt-2">
+                      ‣ MACHINE MODELS AND APPLICATIONS
                       </li>
-                      <li className="text-sm sm:text-sm  lg:text-base text-gray-500 font-bold font-sans pt-2">
+                      <li className="text-sm text-gray-500 font-medium  font-sans pt-2">
+                      ‣ MACHINE RECOMMENDER SYSTEM
+                      </li>
+                      <li className="text-sm  text-gray-500 font-medium  font-sans pt-2">
+                      ‣ MACHINE AND WIRELESS,MOBILE   COMMUNICATION
+                      </li>
+                      <li className="text-sm  text-gray-500 font-medium font-sans pt-2">
+                      ‣ MACHINE LEARNING TRENDS AND DEVELOPMENT IN NETWORK
+                      </li>
+                      <li className="text-sm  text-gray-500 font-medium  font-sans pt-2">
+                      ‣ MACHINE LEARNING AND CYBER SECURITY
+                      </li>
+                      </ul>
 
-                      ‣ IMAGE AND VIDEO PROCESSING
-                      </li>
-                      <li className="text-sm sm:text-sm  lg:text-base text-gray-500 font-bold font-sans pt-2">
-                      ‣ DATA MINING
-                      </li>
-                      <li className="text-sm sm:text-sm  lg:text-base text-gray-500 font-bold font-sans pt-2">
-                      ‣ MACHINE LEARNING
-                      </li>
-                      <li className="text-sm sm:text-sm  lg:text-base text-gray-500 font-bold font-sans pt-2">
-                      ‣ BIG DATA
-                      </li>
-                      <li className="text-sm sm:text-sm  lg:text-base text-gray-500 font-bold font-sans pt-2">
-                      ‣ NEURAL AND DEEP LEARNING
-                      </li>
+                      {/* Column 2: Data Science */}
+                      <ul>
+                        <li className="uppercase text-semibold text-blue-800 text-base">
+                          Data Science
+                        </li>
+                        <li className="text-sm text-gray-500 font-medium font-sans pt-2">
+                        ‣ Big Data
+                        </li>
+                        <li className="text-sm text-gray-500 font-medium font-sans pt-2">
+                        ‣ Data Analytics
+                        </li>
+                        <li className="text-sm text-gray-500 font-medium font-sans pt-2">
+                        ‣ Data Mining and Management
+                        </li>
+                        <li className="text-sm text-gray-500 font-medium font-sans pt-2">
+                        ‣  DATA SCIENCE AND MACHINE LERANINIG
+                        </li>
+                        <li className="text-sm text-gray-500 font-medium font-sans pt-2">
+                        ‣ NATURAL LANGUAGE PROSSEING
+                        </li>
+                        <li className="text-sm text-gray-500 font-medium font-sans pt-2">
+                        ‣ Data Mining and Management
+                        </li>
+                        <li className="text-sm text-gray-500 font-medium font-sans pt-2">
+                        ‣ SOCIAL NETWORK ANALYSIS
+                        </li>
+                        <li className="text-sm text-gray-500 font-medium font-sans pt-2">
+                        ‣ TIME SERIES ANALYSIS
+                        </li>
+                        <li className="text-sm text-gray-500 font-medium font-sans pt-2">
+                        ‣ Predictive Analytics
+                        </li>
+                        
+                      </ul>
 
-                    </ul>
+                      {/* Column 3: Deep Learning */}
+                      <ul>
+                        <li className="uppercase text-semibold text-blue-800 text-base">
+                          Deep Learning
+                        </li>
+                        <li className="text-sm text-gray-500 font-medium font-sans pt-2">
+                        ‣ Image and Video Processing
+                        </li>
+                        <li className="text-sm text-gray-500 font-medium font-sans pt-2">
+                        ‣ Neural Networks
+                        </li>
+                        <li className="text-sm text-gray-500 font-medium font-sans pt-2">
+                        ‣ Reinforcement Learning:
+                        </li>
+                        <li className="text-sm text-gray-500 font-medium font-sans pt-2">
+                        ‣ Long Short-Term Memory
+                        </li>
+                        <li className="text-sm text-gray-500 font-medium font-sans pt-2">
+                        ‣ Attention Mechanisms
+                        </li>
+                        <li className="text-sm text-gray-500 font-medium font-sans pt-2">
+                        ‣ Neuroevolution
+                        </li>
+                        <li className="text-sm text-gray-500 font-medium font-sans pt-2">
+                        ‣Recurrent Neural Networks
+                        </li>
+                        <li className="text-sm text-gray-500 font-medium font-sans pt-2">
+                        ‣ Convolutional Neural Networks
+                        </li>
+                        <li className="text-sm text-gray-500 font-medium font-sans pt-2">
+                        ‣ Transfer Learning
+                        </li>
+                      </ul>
+                    </div>
 
                     <button
                       className="mt-3 bg-gradient-to-r from-[#005eff] to-blue-400 text-white font-bold py-1 px-4 rounded-md hover:from-pink-500 hover:to-yellow-500 wow bounceIn cursor-pointer text-lg"

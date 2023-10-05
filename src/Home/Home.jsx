@@ -5,6 +5,7 @@ import { Facebook, Instagram, Youtube } from "iconsax-react";
 import { useNavigate } from "react-router-dom";
 import WOW from "wow.js";
 
+
 export const Home = () => {
   const navigate = useNavigate();
 
@@ -27,7 +28,7 @@ export const Home = () => {
           (HYBRID MODE)
           </div>
           <div className="text-xl lg:text-2xl leading-tight font-sans font-black py-5">
-            HELD ON 5th JANUARY 2024
+            HELD ON 5<sup>th</sup>JANUARY 2024
           </div>
           <div className="text-xl lg:text-lg font-sans font-black py-5">
             {/* ON SEPTEMBER 2023 */}
@@ -37,6 +38,7 @@ export const Home = () => {
               ORGANIZED BY DEPARTMENT OF COMPUTER SCIENCE AND APPLICATIONS
               (M.C.A)
               {/* ASSOCIATION WITH */}
+
             </div>
             <div className="flex justify-center">
               {/* <img src={ict} alt="wdwd" className="h-20 w-72 rounded-lg" /> */}
@@ -51,7 +53,7 @@ export const Home = () => {
             together.
           </div>
           <div className="mt-7 wow bounceIn items-center text-center">
-            <div className="sm:text-base lg:text-xl font-sans font-black py-5">
+            {/* <div className="sm:text-base lg:text-xl font-sans font-black py-5">
               Submit your article in the link {"   "}
               <a
                 href="https://easychair.org/conference/?conf=ircled2025"
@@ -61,7 +63,7 @@ export const Home = () => {
               >
                 https://easychair.org/conference/?conf=ircled2025
               </a>
-            </div>
+            </div> */}
           </div>
 
           <div className="flex items-center justify-center gap-3 mt-6 pb-4">

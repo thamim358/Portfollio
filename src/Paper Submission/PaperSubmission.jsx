@@ -44,7 +44,7 @@ export const PaperSubmission = () => {
             and copyright violation
           </p>
           <div className="mt-7  items-center text-center ">
-            <div className="sm:text-base lg:text-xl font-sans font-black py-5 wow fadeInUp">
+            {/* <div className="sm:text-base lg:text-xl font-sans font-black py-5 wow fadeInUp">
               Submit your article in the link{" "}
               <span>
               <a
@@ -56,7 +56,7 @@ export const PaperSubmission = () => {
                 https://cmt3.research.microsoft.com/NCTSconf2023
               </a>
               </span>
-            </div>
+            </div> */}
           </div>
           <div className="">
             <div className="text-left text-3xl text-black font-extrabold mt-5 wow fadeInUp">

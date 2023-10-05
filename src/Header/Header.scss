@@ -7,18 +7,20 @@
   background-repeat: no-repeat;
 }
 .home {
-  background: linear-gradient(to right top, rgba(0, 0, 0, 0.5), rgba(8, 6, 6, 0.5), rgba(8, 6, 6, 0.5)), url('../img/img-background1.jpg'); 
+  background: linear-gradient(to right top, rgba(0, 0, 0, 0.5), rgba(8, 6, 6, 0.5), rgba(8, 6, 6, 0.5)), url('../img/srm.jpg'); 
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .dashboard1 {
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(to right top, #10007a, #002fa3, #001473, #001a6e, #001e69, #00216d, #002471, #002fa3, #10007a, #002d93, #002fa3, #0631b2);
+  background-image: linear-gradient(to right top, #2712ae, #10007a, #002fa3, #001473, #001a6e, #0936a8, #09246a, #002471, #002fa3, #10007a, #062670, #03216d, #0631b2);
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .overlay-menu {

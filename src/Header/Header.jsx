@@ -1,8 +1,9 @@
 import React, { useEffect, useRef, useState } from "react";
+import { useActiveMenu } from "react-active-menu";
 import { useNavigate } from 'react-router-dom';
 import { Link } from "react-scroll";
 import WOW from "wow.js";
-import logo from "../img/FINAL-new-logo.jpeg";
+import logo from "../img/srm.png";
 import "./Header.scss";
 function Header() {
   useEffect(() => {
@@ -73,7 +74,7 @@ const handleEvent = () => {
         <div className=" mx-5 sm:mx-10 flex items-center lg:mx-8 justify-between py-3 ">
           <div className=" font-bold font-mono text-4xl  wow lightSpeedIn">
             
-            <img src={logo} alt="wdwd" className="h-14 w-14"/>
+            <img src={logo} alt="wdwd" className="h-14 w-22"/>
           </div>
           <nav>
             <div className="flex justify-between md:hidden">

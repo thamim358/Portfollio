@@ -200,7 +200,7 @@ export const Commitee = () => {
               </div>
             </div>
           </div>
-          <div className=" mt-10">
+          {/* <div className=" mt-10">
             <div className=" rounded-lg drop-shadow-xl bg-gradient-to-r from-blue-700 to-blue-500 p-4 text-center mt-5 justify-center ">
               <div className="text-white font-black text-4xl wow fadeInUp"> Co-Convener</div>
             </div>
@@ -221,7 +221,7 @@ export const Commitee = () => {
                 ))}
               </div>
             </div>
-          </div>
+          </div> */}
           <div className=" mt-10">
             <div className=" rounded-lg drop-shadow-xl bg-gradient-to-r from-blue-700 to-blue-500 p-4 text-center mt-5">
               <div className="text-white font-black text-4xl wow fadeInUp">
@@ -248,8 +248,18 @@ export const Commitee = () => {
                     And Applications (M.C.A), SRMIST
                   </div>
                 </div>
+               
+              
               </div>
             </div>
+            <div className="p-5 text-black rounded-lg drop-shadow-lg bg-white hover:bg-gradient-to-r from-blue-700 to-blue-500 mt-4 hover:text-white wow fadeInUp">
+                  <div className="text-3xl text-center  font-extrabold ">
+                  Dr. V. Raja
+                  </div>
+                  <div className="text-base text-center  font-bold mt-3">
+                  Assistant Professor & Head, Department of Computer Science and Applicationss SRM Institute of Science and Technology Vadapalani Campus
+                  </div>
+                </div>
           </div>
           <div className=" mt-10">
             <div className=" rounded-lg drop-shadow-xl bg-gradient-to-r from-blue-700 to-blue-500 p-4 text-center mt-5">

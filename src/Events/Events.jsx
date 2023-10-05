@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-scroll";
 import WOW from "wow.js";
+
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 
@@ -28,22 +29,22 @@ function Events() {
             <div className="text-left  font-bold text-2xl">
               Submission Deadline
             </div>
-            <div className="text-left  font-bold text-2xl">
+            <div className="text-left  font-semibold text-xl">
               (Full Paper Submission)
             </div>
-            <div className="text-left mt-2">15th November, 2023</div>
+            <div className="text-left mt-2">15<sup>th</sup> November, 2023</div>
           </div>
           <div className="drop-shadow-xl bg-white text-black rounded-lg p-5 hover:bg-gradient-to-r from-blue-700 to-blue-500 mt-4 hover:text-white">
             <div className="text-left  font-bold text-2xl">
               Acceptance Notification
             </div>
-            <div className="text-left mt-2">30th November, 2023</div>
+            <div className="text-left mt-2">30<sup>th</sup> November, 2023</div>
           </div>
           <div className="drop-shadow-xl bg-white text-black rounded-lg p-5 hover:bg-gradient-to-r from-blue-700 to-blue-500 mt-4 hover:text-white">
             <div className="text-left  font-bold text-2xl">
               Registration Deadline
             </div>
-            <div className="text-left mt-2">10th December, 2023</div>
+            <div className="text-left mt-2">10<sup>th</sup> December, 2023</div>
           </div>
           <p
             className=" text-gray-500 text-left text-lg mt-8  mb-5 font-bold

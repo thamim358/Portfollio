@@ -14,11 +14,11 @@ function Footer() {
      <footer className="dashboard bottom-0  px-10 mt-5 py-4 p-5">
   <div className="flex flex-col lg:flex-row">
     <div className="flex flex-col w-full lg:w-1/2 p-10 wow fadeInUp">
-      <div className="text-white text-3xl font-extrabold ">Discover Our Venue</div>
-      <div className="text-white text-base mt-3">
+      <div className="text-white text-3xl font-extrabold  wow fadeInUp ">Discover Our Venue</div>
+      <div className="text-white text-base mt-3  wow fadeInUp">
       Experience the future at the SRM INSTITUTE OF SCIENCE AND TECHNOLOGY VADAPALANI CAMPUS Chennai, Tamil Nadu, India.
       </div>
-      <div className="text-white text-base font-extrabold mt-3">
+      <div className="text-white text-base font-extrabold mt-3  wow fadeInUp">
         <a
           href="https://www.gmail.com"
           target="_blank"
@@ -36,7 +36,7 @@ function Footer() {
       <div className="text-white text-base mt-3  wow fadeInUp">
       Don't miss a beat! Follow us on social media for the latest updates and news about our events.
       </div>
-      <div className="flex  gap-3 mt-6 pb-4  wow fadeInUp">
+      <div className="flex  gap-3 mt-6 pb-4 ">
             <a
               href="https://www.instagram.com/srm_csh_vdp/"
               target="_blank"
