@@ -24,10 +24,10 @@ function Contact() {
       <section className="contact space" id="contactme">
         <Container>
           <div className="lg:px-10 pb-10">
-            <div className="Name uppercase text-5xl text-blue-800 text-center p-10 font-bold wow fadeInUp">
+            <div className=" mt-10 text-4xl sm:text-2xl  lg:text-4xl uppercase  text-blue-800  font-bold text-center wow fadeInUp">
               CONTACT US
             </div>
-            <Row className="flex flex-col justify-center items-center md:flex-row ">
+            <Row className="flex flex-col justify-center items-center md:flex-row mt-5">
             <Col
                 size={12}
                 md={6}
@@ -106,11 +106,21 @@ function Contact() {
                       </div>
                       <div
                       
+                        className="text--600 font-mediun text-lg"style={{whiteSpace:'nowrap'}}
+                      >
+                        Department of Computer Science and Applications(M.C.A)
+                      </div>
+                      <div
                         className="text--600 font-mediun text-lg"
                       >
-                        Department of Computer Science and Application(M.C.A),College of Science & Humanaties,SRMIST
-                        Vadapalani Campus Chennai - 600026.
+                      SRMIST, College of Science & Humanities
                       </div>
+                      <div
+                        className="text--600 font-mediun text-lg"
+                      >
+                       Vadapalani Campus Chennai - 600026.
+                      </div>
+                      
                     </div>
                   </div>
                 </div>

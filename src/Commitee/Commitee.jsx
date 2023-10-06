@@ -14,17 +14,17 @@ export const Commitee = () => {
     {
       name: "Dr. T. R. Paarivendhar",
       designation:
-        "Founder Chancellor, SRM Institute of Science and Technology",
+        "Founder Chancellor, SRMIST",
     },
     {
       name: "Dr. Ravi Pacha Moothoo",
       designation:
-        "Pro-Chancellor Administration, SRM Institute of Science and Technology",
+        "Pro-Chancellor Administration, SRMIST",
     },
     {
       name: "Dr. P. Sathyanarayanan",
       designation:
-        "Pro-Chancellor Academics, SRM Institute of Science and Technology",
+        "Pro-Chancellor Academics, SRMIST",
     },
     {
       name: "Ms. Harini Ravi",
@@ -36,7 +36,7 @@ export const Commitee = () => {
     {
       name: "Dr. A. Meenakshi",
       designation:
-        "Assistant Professor(Sr.G) & Head, Department of Computer Science and Applicationss (M.C.A) SRM Institute of Science and Technology Vadapalani Campus",
+        "Assistant Professor(Sr.G) & Head, Department of Computer Science and Applications (M.C.A) SRMIST Vadapalani Campus",
     },
 
   ];
@@ -45,7 +45,7 @@ export const Commitee = () => {
     {
       name: "Dr. V. Raja",
       designation:
-      "Assistant Professor & Head, Department of Computer Science and Applicationss SRM Institute of Science and Technology Vadapalani Campus",
+      "Assistant Professor & Head, Department of Computer Science and Applications SRMIST Vadapalani Campus",
   },
   ];
   const professors = [
@@ -59,27 +59,27 @@ export const Commitee = () => {
     },
     {
       name: "Mr. M. Murali Anand",
-      designation: "Assistant Professor Department of CSA, SRMIST",
+      designation: "Assistant Professor, Department of CSA, SRMIST",
     },
     {
       name: "Mr. J. Parthasarathi",
-      designation: "Assistant Professor Department of CSA, SRMIST",
+      designation: "Assistant Professor,Department of CSA, SRMIST",
     },
     {
       name: "Dr. K. Sriprasadh",
-      designation: "Assistant Professor Department of CSA, SRMIST",
+      designation: "Assistant Professor, Department of CSA, SRMIST",
     },
     {
       name: "Dr. N. Mariappan",
-      designation: "Assistant Professor Department of CSA, SRMIST",
+      designation: "Assistant Professor, Department of CSA, SRMIST",
     },
     {
       name: "Mrs. Jenita Mary",
-      designation: "Assistant Professor Department of CSA, SRMIST",
+      designation: "Assistant Professor, Department of CSA, SRMIST",
     },
     {
       name: "Dr. Supriya Arunachalam",
-      designation: "Assistant Professor Department of CSA, SRMIST",
+      designation: "Assistant Professor, Department of CSA, SRMIST",
     },
     {
       name: "Mrs. Shameem Sulthana",
@@ -87,22 +87,22 @@ export const Commitee = () => {
     },
     {
       name: "Mrs. S. Parimala",
-      designation: "Assistant Professor Department of CSA, SRMIST",
+      designation: "Assistant Professor, Department of CSA, SRMIST",
     },
   ];
   const additionalProfessors = [
     {
       name: "Dr. C. Muthamizhchelvan",
-      designation: "Vice Chancellor SRM Institute of Science and Technology",
+      designation: "Vice Chancellor SRMIST",
     },
     {
       name: "Dr. S. Ponnusamy",
-      designation: "Registrar, SRM Institute of Science and Technology",
+      designation: "Registrar, SRMIST",
     },
     {
       name: "Dr. K. Gunasekaran",
       designation:
-        "Controller of Examination, SRM Institute of Science and Technology",
+        "Controller of Examination, SRMIST",
     },
     {
       name: "Dr. S. Ramachandran",
@@ -116,7 +116,7 @@ export const Commitee = () => {
     {
       name: "Dr. K.R. Anandapadmanaban",
       designation:
-        "Dean (FSH), SRM Institute of Science and Technology Vadapalani Campus",
+        "Dean (CSH), SRMIST Vadapalani Campus",
     },
    
   ];
@@ -257,7 +257,7 @@ export const Commitee = () => {
                   Dr. V. Raja
                   </div>
                   <div className="text-base text-center  font-bold mt-3">
-                  Assistant Professor & Head, Department of Computer Science and Applicationss SRM Institute of Science and Technology Vadapalani Campus
+                  Assistant Professor & Head, Department of Computer Science and Applicationss SRMIST Vadapalani Campus
                   </div>
                 </div>
           </div>

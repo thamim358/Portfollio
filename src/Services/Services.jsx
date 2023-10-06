@@ -15,39 +15,39 @@ function Services() {
   }, []);
   const cardsData = [
     {
-      logo: <img className="h-44 w-48" src={iot} />,
+      logo: <img className="h-44 w-48" alt="Logo Image" src={iot} />,
       title: "ARTIFICIAL INTELIGENCE",
     },
     {
-      logo: <img className="h-38 w-44" src={artificial} />,
+      logo: <img className="h-38 w-44"alt="Logo Image"  src={artificial} />,
       title: "IMAGE AND VIDEO PROCESSING",
     },
     {
-      logo: <img className="h-44 w-48" src={com} />,
+      logo: <img className="h-44 w-48" alt="Logo Image" src={com} />,
       title: "DATA MINING",
     },
   ];
   const cardsData2 = [
     {
-      logo: <img className="h-44 w-48" src={web} />,
+      logo: <img className="h-44 w-48" alt="Logo Image" src={web} />,
       title: " MACHINE LEARNING",
     },
     {
-      logo: <img className="h-44 w-48" src={big} />,
+      logo: <img className="h-44 w-48"alt="Logo Image" src={big} />,
       title: "BIG DATA",
     },
     {
-      logo: <img className="h-44 w-48" src={security} />,
+      logo: <img className="h-44 w-48" alt="Logo Image" src={security} />,
       title: "NEURAL AND DEEP LEARNING",
     },
   ];
   return (
     <>
       <div className="section " id="services">
-        <div className="text-4xl sm:text-4xl  lg:text-5xl uppercase  text-blue-800 mx-5 sm:mx-5 font-bold text-center wow fadeInUp">
+        <div className="text-4xl sm:text-2xl  lg:text-4xl uppercase  text-blue-800  font-bold text-center wow fadeInUp">
         Share Your Research
         </div>
-        <div className="mx-3 lg:mx-12 px-5 sm:mx-3">
+        <div className="mx-3 lg:mx-12 ">
         <p className="text-gray-500 text-center text-lg mt-5 font-bold
         uppercase">
   

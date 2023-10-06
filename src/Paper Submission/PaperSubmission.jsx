@@ -24,7 +24,7 @@ export const PaperSubmission = () => {
           <div className="text-left text-3xl text-black font-extrabold mt-5 wow fadeInUp">
             Submission
           </div>
-          <p className="text-base text-gray-500 mt-4 wow fadeInUp">
+          <p className="text-base text-gray-500 mt-4 wow fadeInUp"style={{ textAlign: 'justify', textJustify: "auto"}}>
             A submission should report an original, previously unpublished
             research that is not being concurrently considered elsewhere for
             publication in a journal or conference, written in English.
@@ -34,7 +34,7 @@ export const PaperSubmission = () => {
             payable at the time of registration). The page limit includes title
             page, references, figures, and tables.
           </p>
-          <p className="text-base text-gray-500 mt-4 wow fadeInUp">
+          <p className="text-base text-gray-500 mt-4 wow fadeInUp" style={{ textAlign: 'justify', textJustify: "auto"}}>
             Plagiarism MUST be avoided while preparing the paper. The papers
             would be initially scanned for similarity index [SI] before
             undergoing the review process. Maximum acceptable SI is 15%
@@ -43,20 +43,20 @@ export const PaperSubmission = () => {
             overlap is strictly prohibited as it leads to erroneous SI report
             and copyright violation
           </p>
-          <div className="mt-7  items-center text-center ">
-            {/* <div className="sm:text-base lg:text-xl font-sans font-black py-5 wow fadeInUp">
-              Submit your article in the link{" "}
+          <div className="mt-7  text-center ">
+            <div className=" text-sm sm:text-sm lg:text-xl font-sans font-black py-5 wow fadeInUp overflow-x-auto">
+              Submit your Papers in the link: {""}
               <span>
               <a
-                href="https://cmt3.research.microsoft.com/NCTSconf2023"
+                href="https://forms.gle/2TG8dEXEsiJ1t2TFA"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#005eff] inline-block max-w-full truncate   "
+                className=" text-sm sm:text-sm lg:text-xl text-blue-800 max-w-full truncate "
               >
-                https://cmt3.research.microsoft.com/NCTSconf2023
+               https://forms.gle/2TG8dEXEsiJ1t2TFA
               </a>
               </span>
-            </div> */}
+            </div>
           </div>
           <div className="">
             <div className="text-left text-3xl text-black font-extrabold mt-5 wow fadeInUp">
@@ -70,30 +70,30 @@ export const PaperSubmission = () => {
               </a>{" "}
               template.
             </p>
-            <p className="text-base text-gray-500 mt-4 wow fadeInUp">
+            <p className="text-base text-gray-500 mt-4 wow fadeInUp" style={{ textAlign: 'justify', textJustify: "auto"}}>
               The figures / graphs / plots in the manuscript MUST be of good
               resolution (600 dpi or more), tables MUST NOT be in pictorial
               format. Text in figures should not be too small, and preferably of
               equal size as text of the article.
             </p>
-            <p className="text-base text-gray-500 mt-4 wow fadeInUp">
+            <p className="text-base text-gray-500 mt-4 wow fadeInUp" style={{ textAlign: 'justify', textJustify: "auto"}}>
               Do NOT use any Social / Academic titles (e.g. Mr.,Ms.,Dr.,Prof.
               etc) preceding the author names. Do NOT mention the position of a
               person (e.g., research scholar, student, assistant professor,
               professor).
             </p>
-            <p className="text-base text-gray-500 mt-4 wow fadeInUp">
+            <p className="text-base text-gray-500 mt-4 wow fadeInUp" style={{ textAlign: 'justify', textJustify: "auto"}}>
               Mention full address,affiliation, and email of ALL authors,
               specify a corresponding author with the corresponding e-mail ID.
               [Once an article is accepted, the publisher will send the
               proofreading of article to this e-mail]
             </p>
-            <p className="text-base text-gray-500 mt-4 wow fadeInUp">
+            <p className="text-base text-gray-500 mt-4 wow fadeInUp" style={{ textAlign: 'justify', textJustify: "auto"}}>
               Articles must be written in spell checked and grammatically
               correct English. Do not make any page numbering and do not give
               any running head title.
             </p>
-            <p className="text-base text-gray-500 mt-4 wow fadeInUp">
+            <p className="text-base text-gray-500 mt-4 wow fadeInUp" style={{ textAlign: 'justify', textJustify: "auto"}}>
               Deeply verify the referencing styles of the Paper Template, which
               will help to produce correct reference format. A reference should
               bear following parameters in proper format: author name(s), title

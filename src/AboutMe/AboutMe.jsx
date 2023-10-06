@@ -33,7 +33,7 @@ export const AboutMe = () => {
                 <div className="text-3xl lg:text-5xl text-blue-800  font-bold font-sans  ">
                   ABOUT THE CONFERENCE
                   <div className="mt-2 ">
-                    <p className="text-sm sm:text-sm  lg:text-base text-gray-500 font-semibold font-sans pb-5 pt-4">
+                    <p className="text-sm sm:text-sm lg:text-base text-gray-500 font-semibold font-sans pb-5 pt-4" style={{ textAlign: 'justify', textJustify: "auto"}}>
                       The first edition of the International Conference on
                       Intelligent Computing held at srmist vadapalani. The
                       premier program for the presentation of applied computer
@@ -59,6 +59,7 @@ export const AboutMe = () => {
                         <li className="uppercase text-semibold text-blue-800 text-base">
                           Machine Learning 
                         </li>
+
                         <li className="text-sm text-gray-500 font-medium font-sans pt-2">
                         ‣ Learning Method and Analysis
                         </li>

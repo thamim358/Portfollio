@@ -16,7 +16,10 @@ function Footer() {
     <div className="flex flex-col w-full lg:w-1/2 p-10 wow fadeInUp">
       <div className="text-white text-3xl font-extrabold  wow fadeInUp ">Discover Our Venue</div>
       <div className="text-white text-base mt-3  wow fadeInUp">
-      Experience the future at the SRM INSTITUTE OF SCIENCE AND TECHNOLOGY VADAPALANI CAMPUS Chennai, Tamil Nadu, India.
+      Experience the future at SRM INSTITUTE OF SCIENCE AND TECHNOLOGY
+      <div className="text-white text-base wow fadeInUp">
+      VADAPALANI CAMPUS Chennai, Tamil Nadu, India.
+      </div>
       </div>
       <div className="text-white text-base font-extrabold mt-3  wow fadeInUp">
         <a

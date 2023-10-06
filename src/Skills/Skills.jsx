@@ -26,7 +26,7 @@ function Skills() {
           <div className="Name uppercase text-xl text-center text-gray-600 mt-5 pt-5 font-bold ">
           It must Have atleast one Registerd author in order for it to appear in the publications and be included un the technical program.
           </div>
-          <div className="text-center mt-3">
+          {/* <div className="text-center mt-3">
             <span className=" text-base text-center text-gray-600 px-1">
               Download :
             </span>
@@ -39,7 +39,7 @@ function Skills() {
             >
               Registration Form (PDF)
             </a>
-          </div>
+          </div> */}
           <div className="my-10 mx-4 md:px-6 sm:mx-22">
             <section className=" ">
               <div className="grid gap-6 lg:grid-cols-3 lg:gap-x-12 ">

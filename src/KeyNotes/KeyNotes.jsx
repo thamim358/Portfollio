@@ -17,10 +17,10 @@ export const KeyNotes = () => {
     <>
       <Header />
       <div className="mx-3 lg:mx-12 px-5 sm:mx-3 pb-10">
-        <div className="text-4xl sm:text-4xl  lg:text-5xl uppercase  text-blue-800 mx-5 sm:mx-5 font-bold text-center wow fadeInUp pt-10 ">
+        <div className="text-3xl sm:text-2xl  lg:text-5xl uppercase  text-blue-800 mx-5 sm:mx-5 font-bold text-center wow fadeInUp pt-10 ">
           KEY NOTE TALKS
         </div>
-        <div className="text-center text-2xl font-bold text-gray-600 mt-4  wow fadeInUp">
+        <div className="text-center text-xl sm:text-xl lg:text-2xl font-bold text-gray-600 mt-4  wow fadeInUp">
           Discover Our Inspiring Keynote Speakers
         </div>
         <div className="flex flex-col lg:flex-row">
@@ -56,8 +56,12 @@ export const KeyNotes = () => {
               <p className="text-lg text-blue-800 font-semibold mt-2 uppercase">
                 Department of Computer Science
               </p>
+
               <p className="text-lg text-blue-800 font-semibold uppercase">
                 School of Engineering & Technology
+              </p>
+              <p className="text-lg text-blue-800 font-semibold uppercase">
+               Pondicherry university
               </p>
             </div>
           </div>

@@ -3,7 +3,7 @@ import { useActiveMenu } from "react-active-menu";
 import { useNavigate } from 'react-router-dom';
 import { Link } from "react-scroll";
 import WOW from "wow.js";
-import logo from "../img/srm.png";
+import logo from "../img/srmvdp logo-0.png";
 import "./Header.scss";
 function Header() {
   useEffect(() => {
@@ -71,10 +71,10 @@ const handleEvent = () => {
         id="Navbar"
         className="sticky top-0 left-0 right-0 w-full dashboard1 nav-bar sm:w-full z-10 "
       >
-        <div className=" mx-5 sm:mx-10 flex items-center lg:mx-8 justify-between py-3 ">
+        <div className=" mx-5 sm:mx-10 flex items-center lg:mx-8 justify-between py-4 ">
           <div className=" font-bold font-mono text-4xl  wow lightSpeedIn">
             
-            <img src={logo} alt="wdwd" className="h-14 w-22"/>
+            <img src={logo} alt="wdwd" className="h-12 w-28"/>
           </div>
           <nav>
             <div className="flex justify-between md:hidden">
@@ -205,8 +205,8 @@ const handleEvent = () => {
       )}
       <div className={`overlay-menu ${isMobileMenuOpen ? "open" : ""}`}>
         <div className="flex justify-between p-3 ">
-          <div className="font-mono font-bold text-3xl pl-11 ">
-          <img src={logo} alt="wdwd" className="h-20 w-20"/>
+          <div className="font-mono font-bold text-3xl pl-4 ">
+          <img src={logo} alt="wdwd" className="h-12 w-28"/>
           </div>
           <button
             onClick={toggleMobileMenu}

@@ -32,7 +32,7 @@ function Register() {
           <div className="Name uppercase text-xl text-center text-gray-600 mt-5 pt-5 font-bold ">
             It must Have atleast one Registered author in order for it to appear in the publications and be included In the technical program.
           </div>
-          <div className="text-center mt-3">
+          {/* <div className="text-center mt-3">
             <span className=" text-base text-center text-gray-600 px-1">
               Download :
             </span>
@@ -45,7 +45,7 @@ function Register() {
             >
               Registration Form (PDF)
             </a>
-          </div>
+          </div> */}
           <div className="mt-10">
               <div className="grid gap-6 lg:grid-cols-3 lg:gap-x-12 ">
                 <div className="mb-6 lg:mb-0 ">
@@ -115,7 +115,7 @@ function Register() {
                         style={{ color: "#1d4ed8" }}
                       />
                       <h2 className="mb-12 text-center text-2xl font-bold">
-                        RESEARCH SCHOLARS/FACULTYS
+                        RESEARCH SCHOLARS/FACULTIES
                       </h2>
 
                       <h3 className="mb-6 text-3xl">

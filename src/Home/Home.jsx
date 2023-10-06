@@ -53,17 +53,17 @@ export const Home = () => {
             together.
           </div>
           <div className="mt-7 wow bounceIn items-center text-center">
-            {/* <div className="sm:text-base lg:text-xl font-sans font-black py-5">
-              Submit your article in the link {"   "}
+            <div className="sm:text-base lg:text-xl font-sans font-black py-5">
+              Submit your Papers in the link:{"   "}
               <a
-                href="https://easychair.org/conference/?conf=ircled2025"
+                href="https://forms.gle/2TG8dEXEsiJ1t2TFA"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#005eff] max-w-full pl-2 overflow-x-auto"
+                className="text-yellow-400 max-w-full pl-2 overflow-x-auto"
               >
-                https://easychair.org/conference/?conf=ircled2025
+                https://forms.gle/2TG8dEXEsiJ1t2TFA
               </a>
-            </div> */}
+            </div>
           </div>
 
           <div className="flex items-center justify-center gap-3 mt-6 pb-4">
