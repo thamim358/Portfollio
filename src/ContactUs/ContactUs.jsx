@@ -102,17 +102,17 @@ function ContactUs() {
                       </div>
                        <div
                       
-                      className="text--600 font-mediun text-lg"style={{whiteSpace:'nowrap'}}
+                      className="text-gray-600 font-mediun text-lg"
                     >
                       Department of Computer Science and Applications(M.C.A)
                     </div>
                     <div
-                      className="text--600 font-mediun text-lg"
+                      className="text-gray-600 font-mediun text-lg"
                     >
-                    SRMIST,College of Science & Humanities
+                    SRMIST,faculty of Science & Humanities
                     </div>
                     <div
-                      className="text--600 font-mediun text-lg"
+                      className="text-gray-600 font-mediun text-lg"
                     >
                      Vadapalani Campus Chennai - 600026.
                     </div>

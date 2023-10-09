@@ -29,7 +29,7 @@ export const Commitee = () => {
     {
       name: "Ms. Harini Ravi",
       designation:
-        "Correspondent, Valliammai Engineering College & SRM Arts and Science College",
+        "Correspondent, Valliammai Engineering faculty & SRM Arts and Science faculty",
     },
   ];
   const hod = [
