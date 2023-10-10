@@ -22,14 +22,13 @@ function AboutDetails() {
             ABOUT
           </div>
           <div className="text-left text-3xl text-black font-extrabold mt-10">
-            About SRM Institute of Science and Technology
+            About SRM Faculty of Science and Humanities
           </div>
           <p className="text-base text-gray-500 mt-4 wow fadeInUp">
-            SRM Institute of Science and Technology (formerly known as SRM
+            SRM Faculty of Science and Humanities(formerly known as SRM
             University) is one of the top ranking Universities and most premier
             engineering destinations in India, which was established in 1985 by
-            the Founder Chancellor, Dr. T.R. Paarivendhar, SRM Institute of
-            Science and Technology and now it is functioning in five campuses
+            the Founder Chancellor, Dr. T.R. Paarivendhar, SRM Faculty of Science and Humanities and now it is functioning in five campuses
             located at Kattankulathur, Vadapalani and Ramapuram in Tamil Nadu ,
             the fourth campus at Modi Nagar, Ghaziabad and the fifth campus at
             Amaravathi, Andhra Pradesh with over 38,000 students and 2,600
@@ -55,7 +54,7 @@ function AboutDetails() {
             Our Campus
           </div>
           <p className="text-base text-gray-500 mt-4 wow fadeInUp">
-            City Campus of SRM Institute of Science and Technology (formerly
+            City Campus of SRM Faculty of Science and Humanities (formerly
             known as SRM University) is located in a sprawling campus of more
             than 5 acres and located at the heart of the metropolitan city of
             Chennai. It is well connected by road, rail and air. Apart from the

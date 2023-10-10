@@ -1,10 +1,7 @@
 import React, { useEffect } from "react";
 import "../Header/Header.scss";
-import journal from "../img/Journal-Template.docx";
-// import thamimpdf from "../img/Thamim Resume2.pdf";
+import best from "../img/BEST1.mp4";
 import WOW from "wow.js";
-
-import { useNavigate } from "react-router-dom";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 
@@ -25,6 +22,18 @@ export const Publications = () => {
           <div className="text-center text-base lg:text-2xl font-bold text-gray-600 mt-4">
             Selected papers will be published in the Conference Proceedings with
             ISBN NO.
+          </div>
+          <div className="bg-white p-4 rounded-lg drop-shadow-lg mt-5">
+            <div className="aspect-w-9 aspect-h-5">
+              <video className="w-full h-full object-cover rounded-lg" preload="auto" controls={false}
+          autoPlay
+          loop
+          muted
+          loading="lazy">
+                <source src={best} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
           </div>
         </div>
         <Footer />

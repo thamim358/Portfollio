@@ -114,7 +114,7 @@ export const Commitee = () => {
       designation: "Director (Admin), SRM Group",
     },
     {
-      name: "Dr. K.R. Anandapadmanaban",
+      name: "Dr. K.R. Ananthapadmanaban",
       designation:
         "Dean (CSH), SRMIST Vadapalani Campus",
     },
