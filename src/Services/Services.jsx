@@ -43,11 +43,11 @@ function Services() {
   ];
   return (
     <>
-      <div className="section " id="services">
+      <div className="section mx-3 sm:mx-6 lg:mx-12" id="services">
         <div className="text-4xl sm:text-2xl  lg:text-4xl uppercase  text-blue-800  font-bold text-center wow fadeInUp">
         Share Your Research
         </div>
-        <div className="mx-3 lg:mx-12 ">
+        <div className=" ">
         <p className="text-gray-500 text-center text-lg mt-5 font-bold
         uppercase">
   

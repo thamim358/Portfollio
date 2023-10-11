@@ -4,6 +4,7 @@ import WOW from "wow.js";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 
+
 function AboutDetails() {
   useEffect(() => {
     const wow = new WOW();
@@ -100,14 +101,7 @@ function AboutDetails() {
               by fostering freedom, empowerment, creativity and innovation.
             </li>
           </p>
-          {/* <div className="text-black text-xl font-semibold mt-5 wow fadeInUp">Research at SRM</div>
-          <p className="text-base text-gray-500 mt-4 wow fadeInUp">
-          SRM is committed to creation of knowledge through research across all academic disciplines. Focus areas include Nanotechnology, Bio engineering, Info, Energy, Environment, Materials and Embedded systems. Joint research project on rural healthcare, in collaboration with Queen's University, Canada.
-          </p> */}
-          {/* <div className="text-black text-xl font-semibold mt-5 wow fadeInUp">Research Institute</div>
-          <p className="text-base text-gray-500 mt-4 wow fadeInUp">
-          SRM Research Institute, a Unit of the university, has been established to catalyze proactive applied research to help solve industry's technical problems and is positioned to address and contribute to the market and society needs. It focuses on four domains - Education to research, and develop tools and techniques to address the needs of a university, faculty members, students, and prospective students, Wireless Healthcare to research and propose solutions in the area of Telemedicine, Multimedia for comprehensive and supportive audio, video, and text processing, and Next Generation Networks.
-          </p> */}
+          
           <div className="text-black text-xl font-semibold mt-5 wow fadeInUp">
             About the Department
           </div>
@@ -115,9 +109,8 @@ function AboutDetails() {
             className="text-base text-gray-500 mt-4"
             style={{ textAlign: "justify", textJustify: "auto" }}
           >
-            The Faculty of science and humanities, SRM Institute of science and
-            technology, Vadapalani City Campus. Situated in the heart of
-            Chennai, Faculty of science and humanities, a constituent of SRM
+            The Faculty of Science and Humanities, SRM Institute of Science and Technology, Vadapalani City Campus. Situated in the heart of
+            Chennai, Faculty of Science and Humanities, a constituent of SRM
             Institute of science and technology Vadapalani city campus has
             carved a niche for itself among the academic fraternity with great
             accolades and provides an ideal ambience for the development and
@@ -142,38 +135,20 @@ function AboutDetails() {
             generations to follow.
           </p>
           <div className="text-black text-xl font-semibold mt-5 wow fadeInUp">
-            Department Vision
+           Objectives
           </div>
           <p className="text-base text-gray-500 mt-4 wow fadeInUp">
-            To offer up-to-date and flexible programs that will enable our
-            graduates to be competitive in the job market, the Department of
-            Computer Applications at the SRM Institute of Science and
-            Technology, Vadapalani City Campus, strives to provide a hands-on
-            approach in teaching computer-related courses. To achieve this
-            vision, we are increasing the capacity of our computer laboratories
-            and equipping them with the latest hardware and software.
-          </p>
-          <div className="text-black text-xl font-semibold mt-5 wow fadeInUp">
-            Department Mission
-          </div>
-          <p className="text-base text-gray-500 mt-4 wow fadeInUp">
-            To provide exceptional education and research training to our
-            students, empowering them for successful careers in industry,
-            academia, and government sectors. We are dedicated to achieving
-            excellence in research, teaching, and service, encompassing both the
-            fundamental principles and practical applications of computer
-            science.
             <li>
-              Establishing nationally and internationally recognized research
-              programs, including interdisciplinary initiatives.
+            To advance, evolve and enhance Computer Science fundamentals
             </li>
             <li>
-              Equipping our students with the skills necessary to address
-              complex technological challenges in modern society.
+            To build the interest in students for greater research
             </li>
             <li>
-              Creating a collaborative and multidisciplinary environment that
-              fosters innovation and creativity."
+            To guide students in the development of newer languages
+            </li>
+            <li>
+            To create the ability in students for better hardware production
             </li>
           </p>
           <p className="text-base text-gray-500 mt-4 wow fadeInUp">

@@ -29,8 +29,8 @@ function Register() {
           <div className="mt-10 text-4xl sm:text-4xl  lg:text-5xl uppercase  text-blue-800 mx-5 sm:mx-5 font-bold text-center wow fadeInUp">
             REGISTRATION
           </div>
-          <div className="Name uppercase text-xl text-center text-gray-600 mt-5 pt-5 font-bold ">
-            It must Have atleast one Registered author in order for it to appear in the publications and be included In the technical program.
+          <div className="Name text-xl text-center text-gray-600  pt-5 pb-5 font-bold ">
+            It must have atleast one Registered author in order for it to appear in the publications and be included In the technical program.
           </div>
           {/* <div className="text-center mt-3">
             <span className=" text-base text-center text-gray-600 px-1">

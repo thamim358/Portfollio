@@ -13,23 +13,20 @@ export const Commitee = () => {
   const chiefPatrons = [
     {
       name: "Dr. T. R. Paarivendhar",
-      designation:
-        "Founder Chancellor, SRMIST",
+      designation: "Founder Chancellor, SRMIST",
     },
     {
       name: "Dr. Ravi Pacha Moothoo",
-      designation:
-        "Pro-Chancellor Administration, SRMIST",
+      designation: "Pro-Chancellor Administration, SRMIST",
     },
     {
       name: "Dr. P. Sathyanarayanan",
-      designation:
-        "Pro-Chancellor Academics, SRMIST",
+      designation: "Pro-Chancellor Academics, SRMIST",
     },
     {
       name: "Ms. Harini Ravi",
       designation:
-        "Correspondent, Valliammai Engineering faculty & SRM Arts and Science faculty",
+        "Correspondent, SRM Valliammai Engineering College & SRM Arts and Science College",
     },
   ];
   const hod = [
@@ -38,15 +35,41 @@ export const Commitee = () => {
       designation:
         "Assistant Professor(Sr.G) & Head, Department of Computer Science and Applications (M.C.A) SRMIST Vadapalani Campus",
     },
-
   ];
-  const coconverner = [
-
+  const advisor = [
     {
-      name: "Dr. V. Raja",
+      name: "Dr. Alex Noel Joseph Raj",
       designation:
-      "Assistant Professor & Head, Department of Computer Science and Applications SRMIST Vadapalani Campus",
-  },
+        "Senior Engineer, Institute of Electronics Communications & Information Techonology(ECIT), Queen's University, United Kingdom",
+    },
+    {
+      name: "Dr. Zhemin Zhuang",
+      designation:
+        "Professor, Department of Electronic Engineering, Shantou University, Guangdong, China",
+    },
+    {
+      name: "Yu, Dr. Ang",
+      designation:
+        "Director of Engineering Assistant Professor of Electical Engineering, School of Arts and Sciences, Carolina University ,United States",
+    },
+  ];
+
+  const National = [
+    {
+      name: "Dr. R.Uma",
+      designation:
+        " Professor, Department of Computer Science and Engineering, Sri Sairam Engineering College,Chennai",
+    },
+    {
+      name: "Dr. B. Bharthi",
+      designation:
+        " Associate Professor, Department of Computer Science and Engineering, SSN Engineering College,Chennai",
+    },
+    {
+      name: "Dr. M. Pushpa",
+      designation:
+        " Associate Professor, Department of Computer Science, Quaid-E-Millath Govertment College for Women Chennai",
+    },
   ];
   const professors = [
     {
@@ -93,7 +116,7 @@ export const Commitee = () => {
   const additionalProfessors = [
     {
       name: "Dr. C. Muthamizhchelvan",
-      designation: "Vice Chancellor SRMIST",
+      designation: "Vice Chancellor, SRMIST",
     },
     {
       name: "Dr. S. Ponnusamy",
@@ -101,13 +124,11 @@ export const Commitee = () => {
     },
     {
       name: "Dr. K. Gunasekaran",
-      designation:
-        "Controller of Examination, SRMIST",
+      designation: "Controller of Examinations, SRMIST",
     },
     {
       name: "Dr. S. Ramachandran",
-      designation:
-        "Director (Academics), SRM Group ",
+      designation: "Director (Academics), SRM Group ",
     },
     {
       name: "Mr. K Megraj",
@@ -115,17 +136,15 @@ export const Commitee = () => {
     },
     {
       name: "Dr. K.R. Ananthapadmanaban",
-      designation:
-        "Dean (CSH), SRMIST Vadapalani Campus",
+      designation: "Dean-FSH, SRMIST Vadapalani Campus",
     },
-   
   ];
 
   return (
     <>
       <Header />
       <div className="section" id="aboutsection">
-        <div className="py-10 px-5  lg:mx-20">
+        <div className="py-10 px-5  lg:mx-20 sm:mx-5">
           <div className="text-center text-5xl text-blue-800 font-extrabold wow fadeInUp uppercase">
             Committee
           </div>
@@ -180,7 +199,61 @@ export const Commitee = () => {
           </div>
           <div className=" mt-10">
             <div className=" rounded-lg drop-shadow-xl bg-gradient-to-r from-blue-700 to-blue-500 p-4 text-center mt-5">
-              <div className="text-white font-black text-4xl wow fadeInUp">Convener</div>
+              <div className="text-white font-black text-4xl wow fadeInUp ">
+                Advisory Board Member
+              </div>
+            </div>
+            <div className=" bg-gradient-to-r from-blue-700 to-blue-500 relative inline-block p-4 shadow-lg rounded-bl-xl rounded-tr-lg mt-4">
+              <span className=" relative text-white text-3xl  font-extrabold mt-5 uppercase">
+                International
+              </span>
+            </div>
+            <div className="flex mt-7 justify-center wow fadeInUp">
+              <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-7">
+                {advisor.map((professor, index) => (
+                  <div
+                    key={index}
+                    className="p-5 text-black rounded-lg drop-shadow-lg bg-white hover:bg-gradient-to-r from-blue-700 to-blue-500 mt-4 hover:text-white wow fadeInUp "
+                  >
+                    <div className="text-3xl text-center  font-extrabold ">
+                      {professor.name}
+                    </div>
+                    <div className="text-base text-center  font-bold mt-3">
+                      {professor.designation}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div className=" bg-gradient-to-r from-blue-700 to-blue-500 relative inline-block p-4 shadow-lg rounded-bl-xl rounded-tr-lg mt-7 ">
+              <span className=" relative text-white text-3xl  font-extrabold mt-5 uppercase">
+                NATIONAL
+              </span>
+            </div>
+            <div className="flex mt-7 justify-center wow fadeInUp">
+              <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-7">
+                {National.map((professor, index) => (
+                  <div
+                    key={index}
+                    className="p-5 text-black rounded-lg drop-shadow-lg bg-white hover:bg-gradient-to-r from-blue-700 to-blue-500 mt-4 hover:text-white wow fadeInUp "
+                  >
+                    <div className="text-3xl text-center  font-extrabold ">
+                      {professor.name}
+                    </div>
+                    <div className="text-base text-center  font-bold mt-3">
+                      {professor.designation}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          <div className=" mt-10">
+            <div className=" rounded-lg drop-shadow-xl bg-gradient-to-r from-blue-700 to-blue-500 p-4 text-center mt-5">
+              <div className="text-white font-black text-4xl wow fadeInUp">
+                Convener
+              </div>
             </div>
             <div className="flex mt-10 justify-center wow fadeInUp">
               <div className=" lg:mx-24 flex justify-center   lg:gap-7">
@@ -230,6 +303,15 @@ export const Commitee = () => {
             </div>
             <div className="flex mt-10 justify-center wow fadeInUp ">
               <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2  lg:gap-7">
+                <div className="p-5 text-black rounded-lg drop-shadow-lg bg-white hover:bg-gradient-to-r from-blue-700 to-blue-500 mt-4 hover:text-white wow fadeInUp">
+                  <div className="text-3xl text-center  font-extrabold ">
+                    Dr. Fernandez Jayashree
+                  </div>
+                  <div className="text-base text-center  font-bold mt-3">
+                    Professor of Mathematics & IQAC Coordinator, FSH, fSRMIST
+                    Vadapalani Campus
+                  </div>
+                </div>
                 <div className="p-5 text-black rounded-lg drop-shadow-lg bg-white hover:bg-gradient-to-r from-blue-700 to-blue-500 mt-4 hover:text-white wow fadeInUp ">
                   <div className="text-3xl text-center  font-extrabold ">
                     Dr. J.Anitha Ruth
@@ -244,22 +326,22 @@ export const Commitee = () => {
                     Dr.M.Sivasakthi
                   </div>
                   <div className="text-base text-center  font-bold mt-3">
-                    Assistant Professor , Department of Computer Science
-                    And Applications (M.C.A), SRMIST
+                    Assistant Professor , Department of Computer Science And
+                    Applications (M.C.A), SRMIST
                   </div>
                 </div>
-               
-              
+                <div className="p-5 text-black rounded-lg drop-shadow-lg bg-white hover:bg-gradient-to-r from-blue-700 to-blue-500 mt-4 hover:text-white wow fadeInUp">
+              <div className="text-3xl text-center  font-extrabold ">
+                Dr. V. Raja
+              </div>
+              <div className="text-base text-center  font-bold mt-3">
+                Assistant Professor & Head, Department of Computer Science and
+                Applicationss SRMIST Vadapalani Campus
               </div>
             </div>
-            <div className="p-5 text-black rounded-lg drop-shadow-lg bg-white hover:bg-gradient-to-r from-blue-700 to-blue-500 mt-4 hover:text-white wow fadeInUp">
-                  <div className="text-3xl text-center  font-extrabold ">
-                  Dr. V. Raja
-                  </div>
-                  <div className="text-base text-center  font-bold mt-3">
-                  Assistant Professor & Head, Department of Computer Science and Applicationss SRMIST Vadapalani Campus
-                  </div>
-                </div>
+              </div>
+            </div>
+           
           </div>
           <div className=" mt-10">
             <div className=" rounded-lg drop-shadow-xl bg-gradient-to-r from-blue-700 to-blue-500 p-4 text-center mt-5">
@@ -268,7 +350,7 @@ export const Commitee = () => {
               </div>
             </div>
             <div className="flex mt-10 justify-center wow fadeInUp">
-              <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2  lg:gap-7 ">
+              <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2  lg:gap-7 l">
                 {professors.map((professor, index) => (
                   <div
                     key={index}

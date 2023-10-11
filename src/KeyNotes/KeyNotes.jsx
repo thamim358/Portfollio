@@ -34,7 +34,7 @@ export const KeyNotes = () => {
               />
             </div>
             <div className="mt-4 text-center">
-              <p className="text-2xl font-semibold">ARUN KUMAR</p>
+              <p className="text-2xl font-semibold">DR.ARUN KUMAR</p>
               <p className="text-lg text-blue-800 font-semibold mt-2">
                 YUSHAN PROGRAM MINISTRY OF EDUCATION
               </p>
@@ -54,7 +54,7 @@ export const KeyNotes = () => {
             <div className="mt-4 text-center  wow fadeInUp">
               <p className="text-2xl font-semibold">DR. K. SURESH JOSEPH</p>
               <p className="text-lg text-blue-800 font-semibold mt-2 uppercase">
-                Department of Computer Science
+                Professor, Department of Computer Science
               </p>
 
               <p className="text-lg text-blue-800 font-semibold uppercase">
