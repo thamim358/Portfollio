@@ -216,7 +216,7 @@ function Register() {
                       <li>
                       →  Email the compressed file, along with your payment
                         proof, to:{" "}<span className="text-blue-600">
-                      meenaksa@srmist.edu.in
+                        icicsrm2024@gmail.com
                     </span>
                       </li>
                     </ol>

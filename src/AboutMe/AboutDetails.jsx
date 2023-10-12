@@ -59,7 +59,7 @@ function AboutDetails() {
             known as SRM University) is located in a sprawling campus of more
             than 5 acres and located at the heart of the metropolitan city of
             Chennai. It is well connected by road, rail and air. Apart from the
-            public transport, faculty buses are also available for transporting
+            public transport, Faculty buses are also available for transporting
             the staff and students from various places of the city. The campus
             hosts well planned,
             <li>Academic blocks</li>
@@ -115,7 +115,7 @@ function AboutDetails() {
             carved a niche for itself among the academic fraternity with great
             accolades and provides an ideal ambience for the development and
             growth of its students. It reflects in the verve of the innovative
-            teaching – learning strategies adopted by faculty members and paves
+            teaching – learning strategies adopted by Faculty members and paves
             way for the learner to explore himself to match up with the
             standards of the global education. Our institution focuses on the
             holistic development of the students with the
@@ -124,7 +124,7 @@ function AboutDetails() {
             walk of life. The strength of the institution lies in the relentless
             quest to shape the students as independent learners adopting the
             best practices by expanding the horizons of technology. The main
-            objective of the faculty is to ensconce the learning environment
+            objective of the Faculty is to ensconce the learning environment
             which makes the learners to build a future that encompasses the
             traditional roots and Indian culture. Over the years, the
             institution has witnessed a tremendous increase in the admission

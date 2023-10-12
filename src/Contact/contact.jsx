@@ -66,7 +66,7 @@ function Contact() {
                         href="https://mail.google.com"
                         className="text-blue-800 font-mediun text-lg"
                       >
-                        meenaksa@srmist.edu.in
+                        icicsrm2024@gmail.com
                       </a>
                     </div>
                   </div>
@@ -113,7 +113,7 @@ function Contact() {
                       <div
                         className="text-gray-600 font-mediun text-lg"
                       >
-                      SRMIST, faculty of Science & Humanities
+                      SRMIST, Faculty of Science & Humanities
                       </div>
                       <div
                         className="text-gray-600 font-mediun text-lg"

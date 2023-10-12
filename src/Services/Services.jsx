@@ -50,7 +50,6 @@ function Services() {
         <div className=" ">
         <p className="text-gray-500 text-center text-lg mt-5 font-bold
         uppercase">
-  
           We welcome your valuable contributions to our upcoming conference!
         </p>
         <p className="text-gray-500 text-center text-lg mt-3 font-bold

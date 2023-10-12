@@ -13,7 +13,7 @@ export const Commitee = () => {
   const chiefPatrons = [
     {
       name: "Dr. T. R. Paarivendhar",
-      designation: "Founder Chancellor, SRMIST",
+      designation: "Founder, Chancellor, SRMIST",
     },
     {
       name: "Dr. Ravi Pacha Moothoo",
@@ -308,7 +308,7 @@ export const Commitee = () => {
                     Dr. Fernandez Jayashree
                   </div>
                   <div className="text-base text-center  font-bold mt-3">
-                    Professor of Mathematics & IQAC Coordinator, FSH, fSRMIST
+                    Professor of Mathematics & IQAC Coordinator, FSH, SRMIST
                     Vadapalani Campus
                   </div>
                 </div>
@@ -336,7 +336,7 @@ export const Commitee = () => {
               </div>
               <div className="text-base text-center  font-bold mt-3">
                 Assistant Professor & Head, Department of Computer Science and
-                Applicationss SRMIST Vadapalani Campus
+                Applications SRMIST Vadapalani Campus
               </div>
             </div>
               </div>
