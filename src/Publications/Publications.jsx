@@ -20,7 +20,7 @@ export const Publications = () => {
             Publications
           </div>
           <div className="text-center text-base lg:text-2xl font-bold text-gray-600 mt-4">
-          All accepted papers will be published in conference proceedings with ISBN
+          The selected and presented paper will be processed with Additional Fee for publishing in UGC Care, Scopus Indexed Journals.
           </div>
           <div className="bg-white p-4 rounded-lg drop-shadow-lg mt-5">
             <div className="aspect-w-9 aspect-h-5">
